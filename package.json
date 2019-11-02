@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adrianmcg85/property#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
   }
 }
