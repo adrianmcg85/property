@@ -5,6 +5,10 @@ module.exports = function (grunt) {
       sass: {
         files: ['src/core/scss/*.scss'],
         tasks: ['sass', 'cssmin']
+      },
+      uglify:{
+        files: ['src/core/script.js'],
+        tasks: ['uglify']
       }
     },
     sass: {
@@ -20,11 +24,21 @@ module.exports = function (grunt) {
         src:'src/core/style.css',
         dest:"src/core/style.min.css"
       }
+    },
+    uglify:{
+      target:{
+        files:[{
+          src: "src/core/script.js",
+          dest: "src/core/script.min.js" 
+        }]
+      }
     }
 
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.registerTask('default', ['watch', 'cssmin'])
+  grunt.loadNpmTasks('grunt-contrib-uglify-es');
+  
+  grunt.registerTask('default', ['watch'])
 }

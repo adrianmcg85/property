@@ -18,12 +18,14 @@
   "homepage": "https://github.com/adrianmcg85/property#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0"
   }
 }
