@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adrianmcg85/property/issues"
   },
-  "homepage": "https://github.com/adrianmcg85/property#readme"
+  "homepage": "https://github.com/adrianmcg85/property#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
