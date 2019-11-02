@@ -9,6 +9,7 @@
 </head>
 <body>
 <header>
+<?php include'strip/navigation.php' ?>
 
 </header>
     <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
