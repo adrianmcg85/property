@@ -1,0 +1,19 @@
+{
+  "name": "lsli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmcg85/property.git"
+  },
+  "author": "Adrian McGuinness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianmcg85/property/issues"
+  },
+  "homepage": "https://github.com/adrianmcg85/property#readme"
+}
