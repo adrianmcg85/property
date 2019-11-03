@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         tasks: ['sass' ,'concat', 'cssmin']
       },
       uglify:{
-        files: ['src/core/script.js'],
+        files: ['src/core/*.js','src/gf/*.js','src/jnp/*.js'],
         tasks: ['concat', 'uglify']
       }
     },
