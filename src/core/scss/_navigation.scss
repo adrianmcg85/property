@@ -4,5 +4,10 @@ nav{
         a{
             font-size: 14px;
         }
+        a:hover{
+            box-shadow: none;
+            text-decoration: none;
+            outline: none;
+        }
     }
 }

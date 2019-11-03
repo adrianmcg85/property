@@ -8,5 +8,10 @@ nav li {
 nav li a {
   font-size: 14px;
 }
+nav li a:hover {
+  box-shadow: none;
+  text-decoration: none;
+  outline: none;
+}
 
 /*# sourceMappingURL=style.css.map */
