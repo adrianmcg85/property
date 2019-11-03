@@ -5,5 +5,8 @@ body {
 nav li {
   list-style-type: none;
 }
+nav li a {
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=style.css.map */
