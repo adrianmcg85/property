@@ -2,11 +2,19 @@
 
 /*# sourceMappingURL=style.css.map */
 
+body {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
 nav li {
   list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+body {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
 
 nav li {
   list-style-type: none;
