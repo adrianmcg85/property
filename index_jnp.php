@@ -15,6 +15,6 @@
 </header>
     <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="src\core\script.min.js"></script>
+    <script src="src\jnp\script.min.js"></script>
 </body>
 </html>
