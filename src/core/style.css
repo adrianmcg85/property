@@ -4,13 +4,12 @@ body {
 
 header {
   width: 100% !important;
-  margin: 0 3%;
+  height: 83px;
+  padding: 0;
+  position: fixed;
 }
 header .container {
-  max-width: 100%;
   margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
   overflow: hidden;
   display: block;
 }
@@ -21,14 +20,15 @@ header .container .row {
   margin: 0 -10px;
 }
 header .container nav {
-  min-width: 967px;
-  height: 83px;
+  height: inherit;
+  width: auto;
   position: static;
   overflow: hidden;
 }
 header .container nav ul {
   list-style: none;
   margin: 0;
+  flex-wrap: wrap;
 }
 header .container nav ul li {
   display: inline-block;
@@ -37,6 +37,8 @@ header .container nav ul li {
 header .container nav ul li a {
   font-size: 14px;
   padding: 0 20px;
+  line-height: 83px;
+  text-transform: none;
 }
 header .container nav ul li a:hover {
   box-shadow: none;
@@ -52,14 +54,8 @@ header .container form fieldset {
 header .container form fieldset > div {
   display: inline !important;
 }
-header .container form fieldset .row {
-  width: 160px;
-}
 header .container form fieldset .row input {
   height: 63px;
-}
-header .container form fieldset .form_submit {
-  width: 90px;
 }
 header .container form .btn {
   width: 83px;

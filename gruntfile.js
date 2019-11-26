@@ -3,11 +3,17 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     watch: {
       sass: {
-        files: ['src/core/scss/*.scss','src/gf/scss/*.scss', 'src/jnp/scss/*.scss', 'src/core/js/*.js', 'src/gf/js/*.js', 'src/jnp/js/*.js'],
+        files: ['src/core/scss/*.scss',
+        //'src/gf/scss/*.scss', 'src/jnp/scss/*.scss', 
+        'src/core/js/*.js', 
+        //'src/gf/js/*.js', 'src/jnp/js/*.js'
+      ],
         tasks: ['sass' ,'concat', 'cssmin']
       },
       uglify:{
-        files: ['src/core/*.js','src/gf/*.js','src/jnp/*.js'],
+        files: ['src/core/*.js'
+        //,'src/gf/*.js','src/jnp/*.js'
+      ],
         tasks: ['concat', 'uglify']
       }
     },
@@ -33,7 +39,7 @@ module.exports = function (grunt) {
       // js_jnp:{
       //   src:['src/core/js/*.js','src/jnp/js/*.js'],
       //   dest:'src/jnp/script.js'
-      }
+      // }
 
     },
     sass: {
@@ -42,15 +48,15 @@ module.exports = function (grunt) {
           {
           src: 'src/core/scss/style.scss',
          dest: 'src/core/style.css'
-        },
-        {
-          src: 'src/gf/scss/style.scss',
-          dest: 'src/gf/style.css'
-        },
-        {
-          src: 'src/jnp/scss/style.scss',
-          dest: 'src/jnp/style.css'
-        }
+          } // ,
+        // {
+        //   src: 'src/gf/scss/style.scss',
+        //   dest: 'src/gf/style.css'
+        // },
+        // {
+        //   src: 'src/jnp/scss/style.scss',
+        //   dest: 'src/jnp/style.css'
+        // }
       ]
       }
     },

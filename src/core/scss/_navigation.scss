@@ -1,66 +1,63 @@
 header {
-    width: 100% !important;
-    margin: 0 3%;
+  width: 100% !important;
+  height: 83px;
+  padding: 0;
+  position: fixed;
+
   .container {
-      max-width: 100%;
-margin: 0 auto;
-      padding-left: 10px;
-      padding-right: 10px;
+    margin: 0 auto;
     overflow: hidden;
     display: block;
-    .row{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 0 -10px;
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 -10px;
     }
     nav {
-      min-width: 967px;
-      height: 83px;
+      height: inherit;
+      width: auto;
       position: static;
-      // display: inline-block !important;
       overflow: hidden;
-      .logo {
-        // display: inline;
-      }
-      #targetNav {
-        // display: inline-block !important;
-      }
-      ul{
+      ul {
         list-style: none;
         margin: 0;
-      li {
-        display: inline-block;
-        list-style-type: none;
-        a {
-          font-size: 14px;
-          padding: 0 20px;
-        }
-        a:hover {
-          box-shadow: none;
-          text-decoration: none;
-          outline: none;
+        flex-wrap: wrap;
+
+        li {
+          display: inline-block;
+          list-style-type: none;
+          a {
+            font-size: 14px;
+            padding: 0 20px;
+            line-height: 83px;
+            text-transform: none;
+          }
+          a:hover {
+            box-shadow: none;
+            text-decoration: none;
+            outline: none;
+          }
         }
       }
-    }
     }
     form {
       //   display: inline;
       overflow: hidden;
       fieldset {
         //   display: inline-block;
-        width: 300px;
+         width: 300px;
         > div {
           display: inline !important;
         }
         .row {
-          width: 160px;
+          // width: 160px;
           input {
             height: 63px;
           }
         }
         .form_submit {
-          width: 90px;
+          // width: 90px;
         }
       }
       .btn {
