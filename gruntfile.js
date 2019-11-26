@@ -12,27 +12,27 @@ module.exports = function (grunt) {
       }
     },
     concat:{
-      css_gf:{
-        src: [
-        'src/gf/style.css',
-        'src/core/style.css'],
-      dest: 'src/gf/style.css'},
-      csss_jnp:{
-        src: [
-        'src/jnp/style.css',
-        'src/core/style.css'],
-      dest: 'src/jnp/style.css'},
+      // css_gf:{
+      //   src: [
+      //   'src/gf/style.css',
+      //   'src/core/style.css'],
+      // dest: 'src/gf/style.css'},
+      // csss_jnp:{
+      //   src: [
+      //   'src/jnp/style.css',
+      //   'src/core/style.css'],
+      // dest: 'src/jnp/style.css'},
       js_core:{
         src:['src/core/js/*.js'],
         dest:'src/core/script.js'
-      },
-      js_gf:{
-        src:['src/core/js/*.js','src/gf/js/*.js'],
-        dest:'src/gf/script.js'
-      },
-      js_jnp:{
-        src:['src/core/js/*.js','src/jnp/js/*.js'],
-        dest:'src/jnp/script.js'
+      }
+      // js_gf:{
+      //   src:['src/core/js/*.js','src/gf/js/*.js'],
+      //   dest:'src/gf/script.js'
+      // },
+      // js_jnp:{
+      //   src:['src/core/js/*.js','src/jnp/js/*.js'],
+      //   dest:'src/jnp/script.js'
       }
 
     },

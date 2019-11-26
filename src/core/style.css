@@ -26,15 +26,19 @@ header .container nav {
   position: static;
   overflow: hidden;
 }
-header .container nav li {
+header .container nav ul {
+  list-style: none;
+  margin: 0;
+}
+header .container nav ul li {
   display: inline-block;
   list-style-type: none;
 }
-header .container nav li a {
+header .container nav ul li a {
   font-size: 14px;
   padding: 0 20px;
 }
-header .container nav li a:hover {
+header .container nav ul li a:hover {
   box-shadow: none;
   text-decoration: none;
   outline: none;

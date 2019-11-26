@@ -7,7 +7,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#targetNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="targetNav">
+        <nav class="collapse navbar-collapse" id="targetNav">
             <ul>
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Buy</a>
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#">Branches</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </nav>
     <form>
         <fieldset>
