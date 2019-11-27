@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row ">
         <div class="navbar navbar-expand-lg navbar-light">
             <div class="logo">
                 <a href="#" class="navbar-brand">Brand</a>
@@ -29,22 +29,31 @@
                     </li>
                 </ul>
             </nav>
-        </div>
-        <form>
-            <fieldset>
+            <div class="navbar ml-auto">
                 <div class="row">
-                    <input type="text" name="Smart Search" id="">
+                    <form class="form-inline">
+                        <fieldset>
+                            <div class="fieldset_inner">
+                                <div class=" input_wrap">
+                                    <input type="text" placeholder="SMART SEARCH" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn">Search</button>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </form>
+
+                    <div class="account">
+                        <span class="account-name">MyMove</span>
+                        <br>
+                        <a class="account-link">Login</a>
+                        <a class="account-link">Register</a>
+                    </div>
                 </div>
-                <div class="form_submit">
-                    <button class="btn">S</button>
-                </div>
-            </fieldset>
-        </form>
-        <div class="account">
-            <span class="account-name">MyMove</span>
-            <br>
-            <a class="account-link">Login</a>
-            <a class="account-link">Register</a>
+            </div>
         </div>
+
     </div>
 </div>
