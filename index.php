@@ -14,6 +14,9 @@
         <?php include'strip/navigation.php' ?>
 
     </header>
+    <section>
+        <?php include'strip/header_slide.php' ?>
+    </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <!-- <script src="src\core\script.min.js"></script> -->
