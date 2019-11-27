@@ -1,8 +1,52 @@
+@include media-breakpoint-down(md){
+  #desktop_nav{
+    display: none;
+  }
+  #responsive_nav{
+    display: block;
+    .ml-auto{
+      float: right;
+    }
+  }
+}
+@include media-breakpoint-up(lg){
+
+}
+
+
+// 
+// @include media-breakpoint-up(sm){
+  
+
+// }
 @include media-breakpoint-up(md) { 
+  .container{
+    width: 720px;
+  }
+}
+
+@include media-breakpoint-up(lg){
+  .container{
+    width: 980px;
+  }
+  #desktop_nav{
+    display: block;
+  }
+  #responsive_nav{
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(xl){
   .container{
     width: 1380px;
   }
 }
+
+
+
+
+
 
 header {
   height: 83px;

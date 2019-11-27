@@ -353,6 +353,34 @@ template {
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.fade {
+  transition: opacity 0.15s linear;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fade {
+    transition: none;
+  }
+}
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .collapsing {
+    transition: none;
+  }
+}
+
 .navbar {
   position: relative;
   display: flex;
@@ -679,7 +707,37 @@ body {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
+@media (max-width: 991.98px) {
+  #desktop_nav {
+    display: none;
+  }
+
+  #responsive_nav {
+    display: block;
+  }
+  #responsive_nav .ml-auto {
+    float: right;
+  }
+}
 @media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 980px;
+  }
+
+  #desktop_nav {
+    display: block;
+  }
+
+  #responsive_nav {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
   .container {
     width: 1380px;
   }
