@@ -813,4 +813,8 @@ header .container .account {
   max-width: 150px;
 }
 
+.header_image img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
