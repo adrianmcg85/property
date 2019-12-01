@@ -792,7 +792,6 @@ header .container .right {
 header .container form {
   display: block;
   position: relative;
-  margin: 10px;
 }
 header .container form fieldset {
   position: absolute;
@@ -813,8 +812,60 @@ header .container .account {
   max-width: 150px;
 }
 
-.header_image img {
+@media (min-width: 576px) {
+  .header_content .pane {
+    position: absolute;
+    top: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    left: 50%;
+  }
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .header_content .pane {
+    margin-left: -350px;
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .header_content .pane {
+    margin-left: -200px;
+    width: 400px;
+  }
+}
+.header_content .header_image img {
   width: 100%;
+  height: 430px;
+}
+.header_content .pane {
+  text-align: center;
+  border: solid black 1px;
+  padding: 30px 40px;
+}
+.header_content .pane h2 {
+  font-size: 2rem;
+}
+.header_content .pane h3 {
+  font-size: 1.15rem;
+}
+.header_content .pane .btn_group {
+  width: auto;
+  display: flex;
+  margin: 0 -10px -10px;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.header_content .pane .btn_group a {
+  padding: 15px 10px;
+  margin: 0 10px 10px 10px;
+  line-height: 20px;
+  border: solid black 1px;
+  width: 200px;
+  border-radius: 4px;
+}
+.header_content .pane .btn_group a span {
+  width: 100%;
+  margin: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
