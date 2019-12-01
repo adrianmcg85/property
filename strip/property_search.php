@@ -1,4 +1,4 @@
-<div class="property_search">
+<div class="search">
 <form action="">
     <div class="btn_group">
         <label>Buy</label>
