@@ -17,6 +17,9 @@
     <section>
         <?php include'strip/header_slide.php' ?>
     </section>
+    <section>
+        <?php include'strip/property_search.php' ?>
+    </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <!-- <script src="src\core\script.min.js"></script> -->
