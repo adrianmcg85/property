@@ -1,0 +1,30 @@
+.property_search{
+    form{
+    .btn_group{
+        width: 100%;
+        white-space: nowrap;
+        padding: 0 5px;
+        @include media-breakpoint-down(sm){
+            width: 100%;
+        }
+
+        label{
+            height: 50px;
+            background: #ddd;
+            text-align: center;
+            padding-top: 10px;
+            margin:0 -3px;
+            @include media-breakpoint-down(sm){
+                white-space: normal;
+                width: 50%;
+            }
+        }
+        label:hover{
+            background: #ffffff;
+        }
+        label.active span{
+            border-bottom: 2px solid black;
+        }
+    }
+    }
+}

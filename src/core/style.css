@@ -868,4 +868,34 @@ header .container .account {
   margin: 0 20px;
 }
 
+.property_search form .btn_group {
+  width: 100%;
+  white-space: nowrap;
+  padding: 0 5px;
+}
+@media (max-width: 767.98px) {
+  .property_search form .btn_group {
+    width: 100%;
+  }
+}
+.property_search form .btn_group label {
+  height: 50px;
+  background: #ddd;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 -3px;
+}
+@media (max-width: 767.98px) {
+  .property_search form .btn_group label {
+    white-space: normal;
+    width: 50%;
+  }
+}
+.property_search form .btn_group label:hover {
+  background: #ffffff;
+}
+.property_search form .btn_group label.active span {
+  border-bottom: 2px solid black;
+}
+
 /*# sourceMappingURL=style.css.map */

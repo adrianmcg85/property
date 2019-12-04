@@ -1,8 +1,12 @@
 <div class="property_search home_search_form">
 <form action="">
     <div class="btn_group">
-        <label>Buy</label>
-        <label>Rent</label>
+        <label class="active">
+        <span>Buy
+        </span>
+        </label>
+        <label>
+        <span>Rent</span></label> 
     </div>
     <div class="location">
         <input type="text" name="location">
