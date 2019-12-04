@@ -873,7 +873,11 @@ header .container .account {
   margin: 0 20px;
 }
 
-.property_search form label, .property_search form select, .property_search form label, .property_search form button {
+.property_search form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.property_search form label, .property_search form select, .property_search form input, .property_search form button {
   height: 50px;
   padding: 10px;
 }
@@ -900,34 +904,55 @@ header .container .account {
   -webkit-appearance: none;
 }
 .property_search form .form_group {
-  display: flex;
   margin-bottom: 15px;
   padding: 0 5px;
+  white-space: nowrap;
+  display: flex;
 }
 @media (max-width: 767.98px) {
   .property_search form .form_group {
     width: 100%;
-    white-space: nowrap;
   }
 }
-.property_search form .btn_group {
-  width: 100%;
+@media (min-width: 576px) {
+  .property_search form .form_group {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767.98px) {
+  .property_search form .btn_group {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .property_search form .btn_group {
+    max-width: 50%;
+  }
 }
 .property_search form .btn_group label {
   background: #ddd;
   text-align: center;
+  white-space: normal;
+  width: 50%;
 }
-@media (max-width: 767.98px) {
-  .property_search form .btn_group label {
-    white-space: normal;
-    width: 50%;
-  }
+.property_search form .btn_group label.active {
+  background: #ffffff;
 }
 .property_search form .btn_group label:hover {
-  background: #ffffff;
+  background: #ccc;
 }
 .property_search form .btn_group label.active span {
   border-bottom: 2px solid black;
+}
+@media (max-width: 767.98px) {
+  .property_search form .location {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .property_search form .location {
+    max-width: 50%;
+  }
 }
 .property_search form .location input {
   display: inline-block;
@@ -943,6 +968,10 @@ header .container .account {
 .property_search form .bedroom .field_select {
   display: inline-block;
   flex-grow: 1;
+}
+.property_search form .submit {
+  display: flex;
+  width: 100%;
 }
 .property_search form .submit button {
   flex-grow: 1;

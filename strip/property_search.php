@@ -56,7 +56,7 @@
                 </select>
             </div>
         </div>
-        <div class="submit form_group">
+        <div class="submit">
             <button type="submit">Search</button>
         </div>
     </form>
