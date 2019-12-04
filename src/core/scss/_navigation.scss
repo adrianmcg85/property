@@ -1,5 +1,124 @@
-nav{
-    li{
-        list-style-type: none;
+@include media-breakpoint-down(md){
+  #desktop_nav{
+    display: none;
+  }
+  #responsive_nav{
+    display: block;
+    .ml-auto{
+      float: right;
     }
+  }
 }
+@include media-breakpoint-up(lg){
+
+}
+
+
+// 
+// @include media-breakpoint-up(sm){
+  
+
+// }
+@include media-breakpoint-up(md) { 
+  .container{
+    width: 720px;
+  }
+}
+
+@include media-breakpoint-up(lg){
+  .container{
+    width: 980px;
+  }
+  #desktop_nav{
+    display: block;
+  }
+  #responsive_nav{
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(xl){
+  .container{
+    width: 1380px;
+  }
+}
+
+
+
+
+
+
+header {
+  height: 83px;
+  padding: 0;
+  position: relative;
+
+  .container {
+    margin: 0 auto;
+    position: relative;
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+      >div{
+        width: 100%;
+      }
+    }
+    nav {
+      height: inherit;
+      width: auto;
+      position: static;
+      overflow: hidden;
+      ul {
+        list-style: none;
+        margin: 0;
+        flex-wrap: wrap;
+
+        li {
+          display: inline-block;
+          list-style-type: none;
+          a {
+            font-size: 14px;
+            padding: 0 20px;
+            line-height: 83px;
+            text-transform: none;
+          }
+          a:hover {
+            box-shadow: none;
+            text-decoration: none;
+            outline: none;
+          }
+        }
+      }
+    }
+    .right{
+      width: auto;
+    }
+    form {
+      display: block;
+      position: relative;
+      fieldset {
+        position: absolute;
+        display: flex;
+        flex-wrap: nowrap;
+        top: -15px;
+        right: 0px;
+        width: 300px;
+          div{
+          display: inline-block !important;
+        }
+        input, button{
+          height: 63px;
+        }
+      }
+    }
+    .account {
+      // padding: 20px 16px;
+      text-align: center;
+      max-width: 150px;
+    }
+  }
+}
+
+
