@@ -40,6 +40,24 @@
                 </select>
             </div>
         </div>
+        <div class="bedroom form_group">
+            <div class="field_select">
+                <select>
+                    <option value="1">
+                        +1 Bedrooms
+                    </option>
+                    <option value="1">
+                        +2 Bedrooms
+                    </option>
+                    <option value="1">
+                        +3 Bedrooms
+                    </option>
+                    <option value="1">
+                        +5 Bedrooms
+                    </option>
+                </select>
+            </div>
+        </div>
         <button type="submit form_group">Search</button>
     </form>
 </div>

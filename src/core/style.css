@@ -878,6 +878,7 @@ header .container .account {
 }
 .property_search form .field_select select {
   width: 100%;
+  margin-right: 10px;
 }
 .property_search form .field_select:after {
   content: "▼";
@@ -929,6 +930,10 @@ header .container .account {
 .property_search form .price .field_select {
   flex-grow: 1;
   height: 50px;
+}
+.property_search form .bedroom .field_select {
+  display: inline-block;
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

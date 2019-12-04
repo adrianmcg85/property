@@ -9,6 +9,7 @@
             position: relative;	
             select{
                 width:100%;
+                margin-right: 10px;
             }
             &:after{
                 content: "\25bc";
@@ -62,14 +63,18 @@
 
 
     }
-
     .price{
         .field_select{
             flex-grow: 1;
             height: $element-height;
         }
     }
-
+    .bedroom{
+        .field_select{
+            display: inline-block;
+            flex-grow: 1;
+        }
+    }
 
     }
 }
