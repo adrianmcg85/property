@@ -44,9 +44,7 @@
             <div class="field_select">
                 <select>
                     <option value="1">
-                        +1 Bedrooms
-                    </option>
-                    <option value="1">
+                        <a href="#">+1 Bedrooms</a </option> <option value="1">
                         +2 Bedrooms
                     </option>
                     <option value="1">
@@ -58,6 +56,8 @@
                 </select>
             </div>
         </div>
-        <button type="submit form_group">Search</button>
+        <div class="submit form_group">
+            <button type="submit">Search</button>
+        </div>
     </form>
 </div>
