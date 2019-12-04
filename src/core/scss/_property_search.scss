@@ -1,6 +1,27 @@
 .property_search{
     $element-height: 50px;
     form{
+        label, select, label{
+            height: $element-height;
+            padding: 10px;
+        }
+        .field_select{
+            position: relative;	
+            select{
+                width:100%;
+            }
+            &:after{
+                content: "\25bc";
+                position: absolute;
+                top: 12px;
+                right: 5px;
+                color: #434B67;
+            }
+        select{
+            -webkit-appearance: none;
+        }
+    }
+
     .form_group{
         display: flex;
         margin-bottom: 15px;
@@ -15,10 +36,8 @@
         width: 100%;
 
         label{
-            height: $element-height;
             background: #ddd;
             text-align: center;
-            padding-top: 10px;
             // margin:0 -3px;
             @include media-breakpoint-down(sm){
                 white-space: normal;
@@ -34,21 +53,23 @@
     }
     .location{
         input{
-            height: $element-height;
             display: inline-block;
             flex-grow: 1;
-            padding: 10px;
         }
-        select{
+        .field_select{
             max-width: 115px;
-            padding: 10px;
-            height: $element-height;
-
         }
 
 
     }
 
-    
+    .price{
+        .field_select{
+            flex-grow: 1;
+            height: $element-height;
+        }
+    }
+
+
     }
 }

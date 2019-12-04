@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -868,6 +869,26 @@ header .container .account {
   margin: 0 20px;
 }
 
+.property_search form label, .property_search form select, .property_search form label {
+  height: 50px;
+  padding: 10px;
+}
+.property_search form .field_select {
+  position: relative;
+}
+.property_search form .field_select select {
+  width: 100%;
+}
+.property_search form .field_select:after {
+  content: "▼";
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  color: #434B67;
+}
+.property_search form .field_select select {
+  -webkit-appearance: none;
+}
 .property_search form .form_group {
   display: flex;
   margin-bottom: 15px;
@@ -883,10 +904,8 @@ header .container .account {
   width: 100%;
 }
 .property_search form .btn_group label {
-  height: 50px;
   background: #ddd;
   text-align: center;
-  padding-top: 10px;
 }
 @media (max-width: 767.98px) {
   .property_search form .btn_group label {
@@ -901,14 +920,14 @@ header .container .account {
   border-bottom: 2px solid black;
 }
 .property_search form .location input {
-  height: 50px;
   display: inline-block;
   flex-grow: 1;
-  padding: 10px;
 }
-.property_search form .location select {
+.property_search form .location .field_select {
   max-width: 115px;
-  padding: 10px;
+}
+.property_search form .price .field_select {
+  flex-grow: 1;
   height: 50px;
 }
 
