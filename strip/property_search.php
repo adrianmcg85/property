@@ -1,5 +1,5 @@
 <div class="property_search home_search_form">
-    <form action="">
+    <form action="./pages/search_results.php">
         <div class="btn_group form_group">
             <label class="active">
                 <span>Buy
