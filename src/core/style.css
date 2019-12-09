@@ -874,6 +874,7 @@ header .container .account {
 }
 
 .property_search form {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }

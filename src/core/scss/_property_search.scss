@@ -1,6 +1,7 @@
 .property_search{
     $element-height: 50px;
     form{
+        justify-content: center;
             display: flex;
             flex-wrap: wrap;
         label, select, input, button{
