@@ -55,6 +55,11 @@
         @include media-breakpoint-between(md,lg){
             max-width: 50%;
         }
+        @include media-breakpoint-up(lg){
+            max-width: 17%;
+            min-width: 220px;
+        }
+
 
         label{
             background: #ddd;
@@ -80,6 +85,10 @@
         @include media-breakpoint-between(md,lg){
             max-width: 50%;
         }
+        @include media-breakpoint-up(lg){
+            min-width: 220px;
+            max-width: 29%;
+        }
         input{
             display: inline-block;
             flex-grow: 1;
@@ -91,18 +100,29 @@
 
     }
     .price{
+        @include media-breakpoint-up(lg){
+            min-width: 220px;
+            max-width: 22%;
+        }
         .field_select{
             flex-grow: 1;
             height: $element-height;
         }
     }
     .bedroom{
+        @include media-breakpoint-up(lg){
+            min-width: 220px;
+            max-width: 17%;
+        }
         .field_select{
             display: inline-block;
             flex-grow: 1;
         }
     }
     .submit{
+        @include media-breakpoint-up(lg){
+            max-width: 15%;
+        }
             display: flex;
             width: 100%;
         button{

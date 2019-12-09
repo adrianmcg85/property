@@ -929,6 +929,12 @@ header .container .account {
     max-width: 50%;
   }
 }
+@media (min-width: 992px) {
+  .property_search form .btn_group {
+    max-width: 17%;
+    min-width: 220px;
+  }
+}
 .property_search form .btn_group label {
   background: #ddd;
   text-align: center;
@@ -954,6 +960,12 @@ header .container .account {
     max-width: 50%;
   }
 }
+@media (min-width: 992px) {
+  .property_search form .location {
+    min-width: 220px;
+    max-width: 29%;
+  }
+}
 .property_search form .location input {
   display: inline-block;
   flex-grow: 1;
@@ -961,9 +973,21 @@ header .container .account {
 .property_search form .location .field_select {
   max-width: 115px;
 }
+@media (min-width: 992px) {
+  .property_search form .price {
+    min-width: 220px;
+    max-width: 22%;
+  }
+}
 .property_search form .price .field_select {
   flex-grow: 1;
   height: 50px;
+}
+@media (min-width: 992px) {
+  .property_search form .bedroom {
+    min-width: 220px;
+    max-width: 17%;
+  }
 }
 .property_search form .bedroom .field_select {
   display: inline-block;
@@ -972,6 +996,11 @@ header .container .account {
 .property_search form .submit {
   display: flex;
   width: 100%;
+}
+@media (min-width: 992px) {
+  .property_search form .submit {
+    max-width: 15%;
+  }
 }
 .property_search form .submit button {
   flex-grow: 1;
