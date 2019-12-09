@@ -35,6 +35,24 @@
                     <option value="2000000">£2000000</option>
                 </select>
             </div>
+            
         </div>
+            <div class="bedroom form_group">
+                <div class="field_select">
+                    <select>
+                        <option value="1">
+                            <a href="#">+1 Bedrooms</a </option> <option value="1">
+                            +2 Bedrooms
+                        </option>
+                        <option value="1">
+                            +3 Bedrooms
+                        </option>
+                        <option value="1">
+                            +5 Bedrooms
+                        </option>
+                    </select>
+                </div>
+            </div>
+
     </form>
 </div>
