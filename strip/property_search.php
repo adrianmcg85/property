@@ -44,7 +44,7 @@
                 </select>
             </div>
             <div class="advanced_button form_group">
-                <a href="#" class="btn">Filter</a>
+                <a href="./pages/search_results.php" class="btn">Search</a>
             </div>
         </div>
 
