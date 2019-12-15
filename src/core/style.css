@@ -986,7 +986,7 @@ header .container .account {
   .property_search .container .advanced_button {
     margin-left: 0;
     flex: 1 1 50%;
-    text-align: right;
+    text-align: center;
   }
   .property_search .container .desktop {
     display: none;
