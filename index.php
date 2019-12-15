@@ -19,9 +19,6 @@
     </section>
     <section>
         <?php include'strip/property_search.php' ?>
-        Landing
-        <?php include'strip/landing/property_search.php' ?>
-        Results
         <?php include'strip/property_search/property_search.php' ?>
     </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>

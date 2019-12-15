@@ -1,140 +1,194 @@
 .property_search{
-    $element-height: 50px;
-    form{
-        justify-content: center;
-            display: flex;
-            flex-wrap: wrap;
-        label, select, input, button{
-            height: $element-height;
-            padding: 10px;
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        >div{
+            border: 1px sold black;
+            padding: 0 5px;
         }
-        .field_select{
-            position: relative;	
-            
-            //Looking to implement a javascript ul/li dropdown  
-            select{
-                width:100%;
-                margin-right: 10px;
-                outline: none;
-                box-shadow: none;
-
-                option{
-                    padding: 2px 10px;
+        .sale_type{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        .location_radius{
+            flex-grow: 1;
+            flex-shrink: 1;
+            .location{
+                flex: 1 1 0%;
+                input{
+                    width: 100%;
+                    height: 50px;
                 }
             }
-            &:after{
-                content: "\25bc";
-                position: absolute;
-                top: 12px;
-                right: 5px;
-                color: #434B67;
+            .radius{
+                width: 130px;
+                select{
+                    width: 100%;
+                }
             }
-        select{
-            -webkit-appearance: none;
         }
-    }
-
-    .form_group{
-        
-        margin-bottom: 15px;
-        padding: 0 5px;
-        white-space: nowrap;
-        display:flex;
-        @include media-breakpoint-down(sm){
-            width: 100%;
-
-        }
-        @include media-breakpoint-up(sm){
-            min-width: 50%;
-        }
-
-    }
-    .btn_group{
-        @include media-breakpoint-down(sm){
-        width: 100%;
-        }
-        @include media-breakpoint-between(md,lg){
-            max-width: 50%;
-        }
-        @include media-breakpoint-up(lg){
-            max-width: 17%;
-            min-width: 220px;
-        }
-
-
-        label{
-            background: #ddd;
-            text-align: center;
-            white-space: normal;
-            width: 50%;
-        }
-        label.active{
-            background: #ffffff;
-        }
-        label:hover{
-            background: #ccc;
-        }
-        label.active span{
-            border-bottom: 2px solid black;
-
-        }
-    }
-    .location{
-        @include media-breakpoint-down(sm){
-            width: 100%;
-        }
-        @include media-breakpoint-between(md,lg){
-            max-width: 50%;
-        }
-        @include media-breakpoint-up(lg){
-            min-width: 220px;
-            max-width: 29%;
-        }
-        input{
-            display: inline-block;
+        .property_price{
             flex-grow: 1;
-        }
-        .field_select{
-            max-width: 115px;
-        }
-
-
-    }
-    .price{
-        @include media-breakpoint-up(lg){
-            min-width: 220px;
-            max-width: 22%;
-        }
-        .field_select{
-            flex-grow: 1;
-            height: $element-height;
-        }
-    }
-    .bedroom{
-        @include media-breakpoint-up(lg){
-            min-width: 220px;
-            max-width: 17%;
-        }
-        .field_select{
-            display: inline-block;
-            flex-grow: 1;
-        }
-    }
-    .submit{
-        @include media-breakpoint-up(lg){
-            max-width: 15%;
-        }
+            flex-shrink: 1;
             display: flex;
-            width: 100%;
-        button{
+            >div{
+                flex: 1 1 0%;
+                select{
+                    width: 100%;
+                }
+            }
+        }
+        .bedrooms{
             flex-grow: 1;
-            background: #eeeeee;
-            border: none;
-            box-shadow: none;
-        &:hover{
-            background: #dddddd;
+            flex-shrink: 1;
+            select{
+                width: 100%;
+            }
+        }
+        .sale_agreed, .new_build, .chain_free{
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 18%;
+            input{
+                 width: 20px;
+            }
+        }
+        .advanced_button{
+            flex-grow: 1;
+            flex-shrink: 1;
+            border: solid 1px #000;   
+            text-align: center;         
+            a{
+                width: 100%;
+                height: 50px;
+                white-space: normal;
+                padding: 15px 10px;
+                text-decoration: none;
+            }
+        }
+        .btn_group{
+            display: flex;
+            label{
+                min-width: 50px;
+                flex: 1 1 0%;
+            }
+
+        }
+        .form_group {
+            display: flex;
+            margin-bottom: 15px;
+            height: 50px;
+            padding: 0 5px;
+            .btn {
+              position: relative;
+            }
+            span,
+            input {
+              line-height: 50px;
+            }
+            select {
+              height: 50px;
+            }
+            .selected {
+              background: #ddd;
+            }
+          }
+          .field_boolean{
+              display: flex;
+              align-items: center;
+          }
+          label {
+            display: inline-block;
+            text-align: center;
+            padding: 0 2.5px;
+            span{
+                display: inline-block;
+            }
+          }
+          
+
+    }
+
+
+    @include media-breakpoint-down(sm){
+        .container{
+            .form_group{
+                min-width: 100%;
+            }
+            .advanced_button{
+                margin-left: 0;
+                flex: 1 1 50%;
+                text-align: right;
+            }
+            .desktop{
+                display: none;
+            }
         }
     }
+    @include media-breakpoint-between(md,lg){
+        .container{
+            .sale_type{
+                flex: 1 1 33%;
+            }
+            .location_radius{
+                flex: 1 1 66.66%;
+            }
+            .property_price{
+                flex: 1 1 50%;
+            }
+            .bedrooms{
+                flex: 1 1 50%;
+            }
+            .sale_agreed, .new_build, .chain_free{
+                flex: 1 1 33.33%;
+            }
+            .advanced_button{
+                flex: 1 1 50%;
+                text-align: right;
+            }
+            .desktop{
+                display: none;
+            }
+        }
     }
+}
+
+.search_results{
+    .sale_type{
+        flex-basis: 18%;
+    }
+
+    .location_radius{
+        flex-basis: 40%;
+    }
+    .property_price{
+        flex-basis: 22%;
+    }
+    .bedrooms{
+        flex-basis: 18%;
+    }
+    .advanced_button{
+        flex-basis: 18%;;
+        margin-left: 385px;
+        width: 149px;
+    }
+}
+
+.landing_search{
+    .sale_type{
+        flex-basis: 17%;;
+    }
+    .location_radius{
+        flex-basis: 29%;;
+    }
+    .property_price{
+        flex-basis: 22%;;
+    }
+    .bedrooms{
+        flex-basis: 17%;
+    }
+    .advanced_button{
+        flex-basis: 15%;
     }
 }
