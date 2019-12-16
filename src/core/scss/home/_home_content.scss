@@ -51,7 +51,6 @@
       }
     }
     @include media-breakpoint-up(md) {
-        width: 720px;
       display: flex;
       .left {
         flex-basis: 66.6667%;
@@ -65,13 +64,6 @@
         
       }
     }
-    @include media-breakpoint-up(lg){
-        width: 980px;
-    }
-    @include media-breakpoint-up(xl){
-        width: 1380px;
-    }
-
 
     @include media-breakpoint-down(md) {
       display: block;

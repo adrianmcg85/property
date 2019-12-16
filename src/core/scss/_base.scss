@@ -6,6 +6,17 @@ body{
 button{
     text-align: center;
 }
+.container{
+    @include media-breakpoint-up(md){
+        width: 720px;
+    }
+    @include media-breakpoint-up(lg){
+        width: 980px;
+    }
+    @include media-breakpoint-up(xl){
+        width: 1380px;
+    }
+}
 
 @import '../../../node_modules/bootstrap/scss/functions';
 @import '../../../node_modules/bootstrap/scss/mixins';
