@@ -1101,16 +1101,6 @@ header .container .account {
   margin-top: 8px;
   padding: 0 20px;
 }
-@media (min-width: 1200px) {
-  .main_content .container {
-    width: 1380px;
-  }
-}
-@media (min-width: 992px) {
-  .main_content .container {
-    width: 980px;
-  }
-}
 @media (min-width: 768px) {
   .main_content .container {
     width: 720px;
@@ -1125,6 +1115,16 @@ header .container .account {
   }
   .main_content .container .right {
     flex-basis: 33.333%;
+  }
+}
+@media (min-width: 992px) {
+  .main_content .container {
+    width: 980px;
+  }
+}
+@media (min-width: 1200px) {
+  .main_content .container {
+    width: 1380px;
   }
 }
 @media (max-width: 991.98px) {
