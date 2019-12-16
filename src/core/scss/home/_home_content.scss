@@ -1,0 +1,11 @@
+.container{
+    >.row{
+        display: flex;
+    }
+    @include media-breakpoint-down(sm){
+        h1{
+            background: red;
+        };
+    }
+
+}

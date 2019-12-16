@@ -1051,4 +1051,13 @@ header .container .account {
   flex-basis: 15%;
 }
 
+.container > .row {
+  display: flex;
+}
+@media (max-width: 767.98px) {
+  .container h1 {
+    background: red;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
