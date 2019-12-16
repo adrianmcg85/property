@@ -1051,12 +1051,98 @@ header .container .account {
   flex-basis: 15%;
 }
 
-.container > .row {
+.main_content .container {
+  padding-top: 40px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.main_content .container .left, .main_content .container .right {
+  padding: 0 10px;
+}
+.main_content .container .left {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.main_content .container .left > .row {
+  display: block;
+}
+.main_content .container .left .widget_header {
+  text-align: center;
+}
+.main_content .container .left .widget_text {
   display: flex;
 }
-@media (max-width: 767.98px) {
-  .container h1 {
-    background: red;
+.main_content .container .left .widget_text .col_left,
+.main_content .container .left .widget_text .col_right {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0 10px;
+}
+.main_content .container .left .widget_text p {
+  margin: 16px 0;
+}
+.main_content .container .right {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.main_content .container .right img {
+  width: 325px;
+  display: block;
+  margin: 0 auto;
+}
+.main_content .container .right .title, .main_content .container .right p {
+  text-align: center;
+  display: block;
+}
+.main_content .container .right .title {
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.main_content .container .right p {
+  margin-top: 8px;
+  padding: 0 20px;
+}
+@media (min-width: 1200px) {
+  .main_content .container {
+    width: 1380px;
+  }
+}
+@media (min-width: 992px) {
+  .main_content .container {
+    width: 980px;
+  }
+}
+@media (min-width: 768px) {
+  .main_content .container {
+    width: 720px;
+    display: flex;
+  }
+  .main_content .container .left {
+    flex-basis: 66.6667%;
+  }
+  .main_content .container .left .col_left,
+.main_content .container .left .col_right {
+    flex-basis: 50%;
+  }
+  .main_content .container .right {
+    flex-basis: 33.333%;
+  }
+}
+@media (max-width: 991.98px) {
+  .main_content .container {
+    display: block;
+  }
+  .main_content .container .left {
+    display: block;
+    min-width: 100%;
+  }
+  .main_content .container .left > .row {
+    display: block;
+  }
+  .main_content .container .left .col_left,
+.main_content .container .left .col_right {
+    display: block;
+    min-width: 100%;
   }
 }
 
