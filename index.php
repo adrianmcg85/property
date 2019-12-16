@@ -21,7 +21,7 @@
         <?php include'strip/property_search.php' ?>
         <?php include'strip/property_search/property_search.php' ?>
         <?php include'strip/home/page_content.php' ?>
-        <?php include'strip/home/image_widget.php'?>
+        <?php include'strip/image_widget.php'?>
     </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
