@@ -1,0 +1,23 @@
+.image_widget{
+    .pre_text{
+        display: block;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+    }
+    .widget_image{
+        flex: 0 0 33.3%;
+        padding: 0 10px;
+        text-align: center;
+        img{
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+            p{
+                color: #000
+            }
+        }
+    }
+}
