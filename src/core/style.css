@@ -1174,4 +1174,36 @@ header .container .account {
   color: #000;
 }
 
+.page_content .search_header {
+  display: flex;
+}
+.page_content .search_header .header_summary {
+  flex: 0 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page_content .search_header .header_summary .search_title {
+  display: block;
+  flex: 0 0 100%;
+  padding: 0 10px;
+}
+.page_content .search_header .header_summary .search_title small {
+  display: block;
+  font-size: 14px;
+}
+.page_content .search_header .header_summary .results {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 10px;
+  flex: 0 0 100%;
+}
+.page_content .search_header .header_summary .results > span, .page_content .search_header .header_summary .results > a {
+  border: solid #000 1px;
+  min-width: 180px;
+  flex: 1 1 0%;
+  padding: 0 10px;
+  text-align: center;
+  line-height: 48px;
+}
+
 /*# sourceMappingURL=style.css.map */

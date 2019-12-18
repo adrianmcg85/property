@@ -17,6 +17,9 @@
     <section>
     <?php include"../strip/property_search/property_search.php"?>
     </section>
+    <section class="page_content">
+    <?php include"../strip/property_search/search_results_list.php"?>
+    </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <!-- <script src="src\core\script.min.js"></script> -->
