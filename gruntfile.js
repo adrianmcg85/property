@@ -4,8 +4,7 @@ module.exports = function (grunt) {
     watch: {
       sass: {
         files: ['src/core/scss/*.scss',
-        'src/core/scss/property_search/*.scss',
-        'src/core/scss/home/*.scss'
+        'src/core/scss/**/*.scss'
       ],
         tasks: ['sass', 'cssmin']
       },
