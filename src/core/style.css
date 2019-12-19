@@ -1177,15 +1177,91 @@ header .container .account {
 .page_content .search_header {
   display: flex;
   flex-wrap: wrap;
+  padding: 20px 0 25px;
+}
+@media (max-width: 767.98px) {
+  .page_content .search_header .header_summary {
+    display: flex;
+    flex: 0 0 100%;
+  }
+  .page_content .search_header .header_summary .search_title {
+    flex: 0 0 100%;
+    display: block;
+  }
+  .page_content .search_header .header_summary .results {
+    display: flex;
+    width: 100%;
+  }
+  .page_content .search_header .header_summary .results > span,
+.page_content .search_header .header_summary .results > a {
+    display: block;
+    flex: 1 1 0%;
+    padding: 0 10px;
+  }
+  .page_content .search_header .header_results_display {
+    flex: 0 0 100%;
+  }
+  .page_content .search_header .header_results_display .search_results {
+    padding: 0 10px;
+  }
+  .page_content .search_header .header_results_display .sort {
+    flex: 0 0 100%;
+  }
+  .page_content .search_header .header_results_display .result_view {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .page_content .search_header .header_summary {
+    flex: 0 0 58.3333%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .page_content .search_header .header_summary .search_title, .page_content .search_header .header_summary .results {
+    display: block;
+    width: 100%;
+  }
+  .page_content .search_header .header_results_display {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 41.667%;
+  }
+  .page_content .search_header .header_results_display .result_view {
+    display: block;
+    flex: 0 0 100%;
+    text-align: right;
+  }
+  .page_content .search_header .header_results_display .result_view .desktop {
+    display: none;
+  }
+  .page_content .search_header .header_results_display .sort {
+    flex: 0 0 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .page_content .search_header .header_summary {
+    flex: 0 0 58.3333%;
+    display: flex;
+  }
+  .page_content .search_header .header_summary .search_title,
+.page_content .search_header .header_summary .results {
+    display: block;
+    flex: 0 0 50%;
+  }
+  .page_content .search_header .header_results_display {
+    flex: 0 0 41.6667%;
+  }
+  .page_content .search_header .header_results_display .sort,
+.page_content .search_header .header_results_display .result_view {
+    display: inline-block;
+    flex: 0 0 50%;
+  }
 }
 .page_content .search_header .header_summary {
-  flex: 0 0 100%;
   display: flex;
   flex-wrap: wrap;
 }
 .page_content .search_header .header_summary .search_title {
-  display: block;
-  flex: 0 0 100%;
   padding: 0 10px;
 }
 .page_content .search_header .header_summary .search_title small {
@@ -1193,30 +1269,38 @@ header .container .account {
   font-size: 14px;
 }
 .page_content .search_header .header_summary .results {
-  display: flex;
-  margin: 0 auto;
   padding: 0 10px;
-  flex: 0 0 100%;
 }
-.page_content .search_header .header_summary .results > span, .page_content .search_header .header_summary .results > a {
+.page_content .search_header .header_summary .results > span,
+.page_content .search_header .header_summary .results > a {
+  display: inline-block;
   border: solid #000 1px;
-  min-width: 180px;
-  flex: 1 1 0%;
-  padding: 0 10px;
   text-align: center;
   line-height: 48px;
 }
-.page_content .search_header .header_sort {
-  flex: 0 0 100%;
+.page_content .search_header .header_results_display {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 10px;
   margin-top: 6px;
 }
-.page_content .search_header .header_sort select {
-  flex: 0 0 100%;
+.page_content .search_header .header_results_display .sort select {
   min-width: 260px;
   height: 50px;
   padding: 10px;
+  width: 100%;
+}
+.page_content .search_header .header_results_display .result_view {
+  min-width: 220px;
+  margin-top: 10px;
+  text-align: right;
+}
+.page_content .search_header .header_results_display .result_view label {
+  height: 50px;
+  width: 50px;
+  margin: 0 2.5px;
+  text-align: center;
+  line-height: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */
