@@ -18,6 +18,12 @@
                     <a href="#">Save this property</a>
                 </div>
             </div>
+            <div class="header_sort">
+            <select>
+                <option value="1">Price: High to Low</option>
+                <option value="2">Price: Low to high</option>
+            </select>
+            </div>
         </div>
     </div>
 </div>
