@@ -1309,5 +1309,10 @@ header .container .account {
   height: 200px;
   width: 33%;
 }
+@media (max-width: 767.98px) {
+  .results_list {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

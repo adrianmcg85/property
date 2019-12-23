@@ -19,6 +19,7 @@
 
         //mobile only
     @include media-breakpoint-down(sm){
+        display: none;
 
     }
     
