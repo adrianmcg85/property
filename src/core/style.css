@@ -1303,4 +1303,11 @@ header .container .account {
   line-height: 48px;
 }
 
+.results_list {
+  width: 100%;
+  width: 66%;
+  height: 200px;
+  width: 33%;
+}
+
 /*# sourceMappingURL=style.css.map */

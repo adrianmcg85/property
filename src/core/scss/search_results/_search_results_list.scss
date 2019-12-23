@@ -1,0 +1,47 @@
+.search_results{
+
+}
+
+.results_list{
+    width: 100%;
+    //all
+    @include media-breakpoint-up(xs){
+
+    }
+    // for tab and desktop
+    @include media-breakpoint-up(md){
+    }
+    // desktop
+    @include media-breakpoint-up(lg){
+    }
+
+    width: 66%;
+
+        //mobile only
+    @include media-breakpoint-down(sm){
+
+    }
+    
+    // responsive only
+    @include media-breakpoint-down(md){
+
+    }
+
+    // all
+    @include media-breakpoint-down(xl){
+    }
+
+    height: 200px;
+    width: 33%;
+    @include media-breakpoint-only(xs){
+    }
+    @include media-breakpoint-only(sm){
+    }
+    @include media-breakpoint-only(md){
+    }
+    @include media-breakpoint-only(lg){
+    }
+    @include media-breakpoint-only(xl){
+    }
+
+}
