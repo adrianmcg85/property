@@ -138,13 +138,19 @@
         }
       }
     }
+    .results_grid{
+        max-width: 66.67%;
+        .property{
+            max-width: 33.33%;
+        }
+    }
   }
 
   // responsive only
   @include media-breakpoint-down(md) {
     .results_list {
       .property {
-        min-width: 100%;
+        max-width: 50%;
         .img_section {
           max-width: 230px;
         }

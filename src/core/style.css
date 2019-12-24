@@ -1428,10 +1428,17 @@ header .container .account {
   .results_list .property .img_section {
     max-width: 37%;
   }
+
+  .results_grid {
+    max-width: 66.67%;
+  }
+  .results_grid .property {
+    max-width: 33.33%;
+  }
 }
 @media (max-width: 991.98px) {
   .results_list .property {
-    min-width: 100%;
+    max-width: 50%;
   }
   .results_list .property .img_section {
     max-width: 230px;
