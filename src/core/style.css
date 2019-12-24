@@ -1303,14 +1303,37 @@ header .container .account {
   line-height: 48px;
 }
 
-.results_list {
-  width: 100%;
+.search_results {
   display: flex;
 }
-.results_list .property {
+.search_results .property {
   display: flex;
   flex: 1 1 0%;
   flex-wrap: wrap;
+}
+.search_results .property .info_section {
+  display: flex;
+  flex: 1 1 0%;
+  width: 100%;
+}
+.search_results .property .info_section .info_header {
+  display: flex;
+  flex: 1 1 0%;
+  width: 100%;
+}
+.search_results .property .info_section .info_header .info_header_right {
+  display: block;
+  width: 48px;
+}
+.search_results .property .info_section .info_header .info_header_right span {
+  min-width: 30px;
+  margin-left: 10px;
+  flex: 1 1 100%;
+  display: block;
+}
+
+.results_list {
+  width: 100%;
 }
 .results_list .property .img_section {
   display: flex;
@@ -1338,30 +1361,12 @@ header .container .account {
   width: 100%;
 }
 .results_list .property .info_section {
-  display: flex;
-  flex: 1 1 0%;
   flex-direction: column;
-  width: 100%;
   padding-left: 20px;
-}
-.results_list .property .info_section .info_header {
-  display: flex;
-  flex: 1 1 0%;
-  width: 100%;
 }
 .results_list .property .info_section .info_header .info_header_left {
   display: block;
   flex: 1 1 0%;
-}
-.results_list .property .info_section .info_header .info_header_right {
-  display: block;
-  width: 48px;
-}
-.results_list .property .info_section .info_header .info_header_right span {
-  min-width: 30px;
-  margin-left: 10px;
-  flex: 1 1 100%;
-  display: block;
 }
 .results_list .property .info_section .info_address {
   display: block;
@@ -1377,6 +1382,42 @@ header .container .account {
   margin-left: 20px;
 }
 
+.results_grid {
+  width: 100%;
+}
+.results_grid .property {
+  flex-direction: column;
+  padding: 10px;
+  padding: 0 10px;
+}
+.results_grid .property .img_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.results_grid .property .img_section .main_img {
+  display: block;
+}
+.results_grid .property .img_section .main_img img {
+  width: 100%;
+}
+.results_grid .property .info_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0x;
+}
+.results_grid .property .info_section .info_header_left {
+  flex: 1 1 0%;
+}
+.results_grid .property .additional_img {
+  display: none;
+}
+.results_grid .property .info_description, .results_grid .property .info_features, .results_grid .property .img_button {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .results_list {
     max-width: 66.6667%;
@@ -1385,20 +1426,20 @@ header .container .account {
     max-width: 37%;
   }
 }
+@media (max-width: 991.98px) {
+  .results_list .property {
+    min-width: 100%;
+  }
+  .results_list .property .img_section {
+    max-width: 230px;
+  }
+  .results_list .property .info_section {
+    max-width: calc(100% - 230px);
+  }
+}
 @media (max-width: 767.98px) {
   .results_list {
     display: none;
-  }
-}
-@media (max-width: 991.98px) {
-  .property {
-    min-width: 100%;
-  }
-  .property .img_section {
-    max-width: 230px;
-  }
-  .property .info_section {
-    max-width: calc(100% - 230px);
   }
 }
 
