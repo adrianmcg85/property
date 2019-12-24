@@ -1384,11 +1384,14 @@ header .container .account {
 
 .results_grid {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .results_grid .property {
+  min-width: 260px;
   flex-direction: column;
   padding: 10px;
-  padding: 0 10px;
+  margin: 0 10px 10px;
 }
 .results_grid .property .img_section {
   display: flex;
