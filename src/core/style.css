@@ -1303,29 +1303,29 @@ header .container .account {
   line-height: 48px;
 }
 
-.search_results {
+.property_results {
   display: flex;
 }
-.search_results .property {
+.property_results .property {
   display: flex;
   flex: 1 1 0%;
   flex-wrap: wrap;
 }
-.search_results .property .info_section {
+.property_results .property .info_section {
   display: flex;
   flex: 1 1 0%;
   width: 100%;
 }
-.search_results .property .info_section .info_header {
+.property_results .property .info_section .info_header {
   display: flex;
   flex: 1 1 0%;
   width: 100%;
 }
-.search_results .property .info_section .info_header .info_header_right {
+.property_results .property .info_section .info_header .info_header_right {
   display: block;
   width: 48px;
 }
-.search_results .property .info_section .info_header .info_header_right span {
+.property_results .property .info_section .info_header .info_header_right span {
   min-width: 30px;
   margin-left: 10px;
   flex: 1 1 100%;

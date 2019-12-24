@@ -1,5 +1,6 @@
 <div class="container">
-    <div class="search_results results_list">
+    <div class="search_results">
+    <div class="property_results results_list">
         <div class="property">
             <div class="img_section">
                 <div class="main_img">
@@ -76,4 +77,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
