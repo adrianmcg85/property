@@ -1,11 +1,10 @@
-<div class="search_results results_list">
-    <div class="container">
+<div class="container">
+    <div class="search_results results_list">
         <div class="property">
             <div class="img_section">
                 <div class="main_img">
                     <a href="#">
                         <img src="..\src\img\cat.png" alt="">
-
                     </a>
                 </div>
                 <div class="additional_img">
@@ -23,8 +22,8 @@
                     </div>
                 </div>
                 <div class="img_button">
-                    <a class="btn" href="#">Images</a>
-                </div>
+                        <a class="btn" href="#">Images</a>
+                    </div>
             </div>
             <div class="info_section">
                 <div class="info_header">
@@ -75,7 +74,6 @@
                     Ref: 12341234
                 </span>
             </div>
-
         </div>
     </div>
 </div>

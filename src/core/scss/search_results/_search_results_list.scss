@@ -85,10 +85,6 @@
   }
   // desktop
   @include media-breakpoint-up(lg) {
-      .page_content{
-          width: 1380px;
-          margin: 0 auto;
-      }
       .results_list{
           max-width: 66.6667%;
 

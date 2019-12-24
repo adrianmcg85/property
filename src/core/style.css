@@ -714,17 +714,17 @@ button {
 .container {
   margin: 0 auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .container {
     width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .container {
     width: 980px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container {
     width: 1380px;
   }
@@ -1378,11 +1378,6 @@ header .container .account {
 }
 
 @media (min-width: 992px) {
-  .page_content {
-    width: 1380px;
-    margin: 0 auto;
-  }
-
   .results_list {
     max-width: 66.6667%;
   }
