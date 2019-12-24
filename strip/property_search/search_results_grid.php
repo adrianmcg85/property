@@ -153,8 +153,7 @@
             </div>
         </div>
         <div class="search_results_map">
-            map
-            <iframe width="600" height="450" frameborder="0" style="border:0"
+            <iframe width="400" height="300" frameborder="0" style="border:0"
                 src="https://www.google.com/maps/embed/v1/place?key=&q=Space+Needle,Seattle+WA" allowfullscreen>
             </iframe>
         </div>

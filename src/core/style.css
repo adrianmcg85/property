@@ -1303,6 +1303,10 @@ header .container .account {
   line-height: 48px;
 }
 
+.search_results {
+  display: flex;
+}
+
 .property_results {
   display: flex;
 }
@@ -1424,8 +1428,14 @@ header .container .account {
 @media (min-width: 768px) {
   .search_results_map {
     width: 100%;
-    max-width: 30.33%;
-    flex: 0 0 30.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    margin: 0 10px;
+    border: solid 1px #000;
+    padding: 20px;
+  }
+  .search_results_map iframe {
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
