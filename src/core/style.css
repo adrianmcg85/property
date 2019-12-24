@@ -1421,6 +1421,13 @@ header .container .account {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .search_results_map {
+    width: 100%;
+    max-width: 30.33%;
+    flex: 0 0 30.33%;
+  }
+}
 @media (min-width: 992px) {
   .results_list {
     max-width: 66.6667%;

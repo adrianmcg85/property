@@ -121,11 +121,18 @@
     }
 }
   }
+
   //all
   @include media-breakpoint-up(xs) {
   }
   // for tab and desktop
   @include media-breakpoint-up(md) {
+    .search_results_map{
+        width: 100%;
+        max-width: 30.33%;
+        flex: 0 0 30.33%;
+
+    }
   }
   // desktop
   @include media-breakpoint-up(lg) {

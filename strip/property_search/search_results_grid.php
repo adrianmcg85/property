@@ -22,8 +22,8 @@
                     </div>
                 </div>
                 <div class="img_button">
-                        <a class="btn" href="#">Images</a>
-                    </div>
+                    <a class="btn" href="#">Images</a>
+                </div>
             </div>
             <div class="info_section">
                 <div class="info_header">
@@ -97,8 +97,8 @@
                     </div>
                 </div>
                 <div class="img_button">
-                        <a class="btn" href="#">Images</a>
-                    </div>
+                    <a class="btn" href="#">Images</a>
+                </div>
             </div>
             <div class="info_section">
                 <div class="info_header">
@@ -150,5 +150,10 @@
                 </span>
             </div>
         </div>
+    </div>
+    <div class="search_results_map">
+        map
+        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=&q=Space+Needle,Seattle+WA" allowfullscreen>
+        </iframe>
     </div>
 </div>
