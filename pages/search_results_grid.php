@@ -19,8 +19,6 @@
     </section>
     <section class="page_content">
     <?php include"../strip/property_search/search_results_header.php"?>
-    </section>
-    <section class="page_content">
     <?php include"../strip/property_search/search_results_grid.php" ?>
     </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
