@@ -16,6 +16,19 @@ button{
     text-align: center;
 }
 
+.btn_group{
+    justify-content: center;
+    padding: 10px;
+}
+.btn{
+    border: solid black 1px;  
+    line-height: 20px;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px 10px 10px;
+}
+
 .container{
     margin: 0 auto;
     @include media-breakpoint-up(sm){
@@ -28,3 +41,5 @@ button{
         width: 1380px;
     }
 }
+
+

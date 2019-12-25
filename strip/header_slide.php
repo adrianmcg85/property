@@ -7,8 +7,8 @@
         <h2>Welcome</h2>
         <h3>Takimata ipsum tempor amet et.</h3>
         <div class="btn_group">
-            <a href="#"><span>Link 1</span></a>
-            <a href="#"><span>Link 2</span></a>
+            <a href="#" class="btn"><span>Link 1</span></a>
+            <a href="#" class="btn"><span>Link 2</span></a>
                 </div>
         <h3>Rating</h3>
         <p>Unto and misery than him gathered.</p>

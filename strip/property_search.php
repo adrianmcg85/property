@@ -43,7 +43,7 @@
                     <option value="3">3+ Bedrooms</option>
                 </select>
             </div>
-            <div class="advanced_button form_group">
+            <div class="btn_group form_group">
                 <a href="./pages/search_results.php" class="btn">Search</a>
             </div>
         </div>

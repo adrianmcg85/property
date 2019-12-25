@@ -711,6 +711,20 @@ button {
   text-align: center;
 }
 
+.btn_group {
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn {
+  border: solid black 1px;
+  line-height: 20px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 10px 10px 10px;
+}
+
 .container {
   margin: 0 auto;
 }
@@ -874,13 +888,10 @@ header .container .account {
   width: auto;
   display: flex;
   margin: 0 -10px -10px;
-  justify-content: center;
-  padding: 10px;
   margin-bottom: 10px;
 }
 .header_content .pane .btn_group a {
   padding: 15px 10px;
-  margin: 0 10px 10px 10px;
   line-height: 20px;
   border: solid black 1px;
   width: 200px;
@@ -947,18 +958,18 @@ header .container .account {
 .property_search .container .sale_agreed input, .property_search .container .new_build input, .property_search .container .chain_free input {
   width: 20px;
 }
-.property_search .container .advanced_button {
+.property_search .container .btn_group {
   flex-grow: 1;
   flex-shrink: 1;
-  border: solid 1px #000;
   text-align: center;
 }
-.property_search .container .advanced_button a {
+.property_search .container .btn_group .btn {
   width: 100%;
   height: 50px;
   white-space: normal;
   padding: 15px 10px;
   text-decoration: none;
+  margin: 0;
 }
 .property_search .container .btn_group {
   display: flex;
@@ -1002,7 +1013,7 @@ header .container .account {
   .property_search .container .form_group {
     min-width: 100%;
   }
-  .property_search .container .advanced_button {
+  .property_search .container .btn_group {
     margin-left: 0;
     flex: 1 1 50%;
     text-align: center;
@@ -1027,7 +1038,7 @@ header .container .account {
   .property_search .container .sale_agreed, .property_search .container .new_build, .property_search .container .chain_free {
     flex: 1 1 33.33%;
   }
-  .property_search .container .advanced_button {
+  .property_search .container .btn_group {
     flex: 1 1 50%;
   }
   .property_search .container .desktop {
@@ -1047,7 +1058,7 @@ header .container .account {
 .search_results .bedrooms {
   flex-basis: 18%;
 }
-.search_results .advanced_button {
+.search_results .btn_group {
   flex-basis: 18%;
   margin-left: 385px;
   width: 149px;
@@ -1065,7 +1076,7 @@ header .container .account {
 .landing_search .bedrooms {
   flex-basis: 17%;
 }
-.landing_search .advanced_button {
+.landing_search .btn_group {
   flex-basis: 15%;
 }
 
@@ -1306,6 +1317,14 @@ header .container .account {
 .search_results {
   display: flex;
 }
+.search_results .info_buttons {
+  display: flex;
+}
+.search_results .info_buttons .btn {
+  font-size: 0.8rem;
+  flex: 1 1 0%;
+  margin: 0 3px;
+}
 
 .property_results {
   display: flex;
@@ -1353,6 +1372,7 @@ header .container .account {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin: 0 -2.5px 10px;
 }
 .results_list .property .img_section .additional_img .img {
   min-width: 94px;
@@ -1374,6 +1394,10 @@ header .container .account {
 }
 .results_list .property .info_section .info_address {
   display: block;
+}
+.results_list .property .img_button > .btn {
+  display: block;
+  margin: 0;
 }
 .results_list .property .footer_section {
   display: flex;
@@ -1424,20 +1448,10 @@ header .container .account {
 .results_grid .property .info_description, .results_grid .property .info_features, .results_grid .property .img_button {
   display: none;
 }
-
-@media (min-width: 768px) {
-  .search_results_map {
-    width: 100%;
-    max-width: 33.33%;
-    flex: 0 0 33.33%;
-    margin: 0 10px;
-    border: solid 1px #000;
-    padding: 20px;
-  }
-  .search_results_map iframe {
-    width: 100%;
-  }
+.results_grid .property .btn_floorplan {
+  display: none;
 }
+
 @media (min-width: 992px) {
   .results_list {
     max-width: 66.6667%;
@@ -1452,6 +1466,18 @@ header .container .account {
   .results_grid .property {
     max-width: 33.33%;
   }
+
+  .search_results_map {
+    width: 100%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    margin: 0 10px;
+    border: solid 1px #000;
+    padding: 20px;
+  }
+  .search_results_map iframe {
+    width: 100%;
+  }
 }
 @media (max-width: 991.98px) {
   .results_list .property {
@@ -1462,6 +1488,10 @@ header .container .account {
   }
   .results_list .property .info_section {
     max-width: calc(100% - 230px);
+  }
+
+  .search_results_map {
+    display: none;
   }
 }
 @media (max-width: 767.98px) {

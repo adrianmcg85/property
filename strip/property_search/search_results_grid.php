@@ -61,9 +61,9 @@
 
                     </div>
                     <div class="info_buttons">
-                        <a class="btn" href="#">Button</a>
-                        <a class="btn" href="#">Button</a>
-                        <a class="btn" href="#">Button</a>
+                        <a class="btn btn_floorplan" href="#">Floorplan</a>
+                        <a class="btn btn_details" href="#">Full Details</a>
+                        <a class="btn btn_request" href="#">Request a viewing</a>
                     </div>
 
                 </div>
@@ -136,9 +136,9 @@
 
                     </div>
                     <div class="info_buttons">
-                        <a class="btn" href="#">Button</a>
-                        <a class="btn" href="#">Button</a>
-                        <a class="btn" href="#">Button</a>
+                        <a class="btn btn_floorplan" href="#">Floorplan</a>
+                        <a class="btn btn_details" href="#">Full Details</a>
+                        <a class="btn btn_request" href="#">Request a viewing</a>
                     </div>
 
                 </div>
