@@ -1,0 +1,23 @@
+.property_header{
+    display: flex;
+    .header_address{
+        display: inline-block;
+        padding-right: 40px;
+        span{
+            display: block;
+        }
+    }
+    .header_price{
+        display: inline-block;
+        padding: 0 40px;
+        border-left: 1px solid #b5b5b5;
+    }
+    .header_buttons{
+        min-width: 180px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+
+    }
+
+}

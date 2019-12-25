@@ -1499,5 +1499,26 @@ header .container .account {
     display: none;
   }
 }
+.property_header {
+  display: flex;
+}
+.property_header .header_address {
+  display: inline-block;
+  padding-right: 40px;
+}
+.property_header .header_address span {
+  display: block;
+}
+.property_header .header_price {
+  display: inline-block;
+  padding: 0 40px;
+  border-left: 1px solid #b5b5b5;
+}
+.property_header .header_buttons {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
