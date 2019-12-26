@@ -1520,5 +1520,10 @@ header .container .account {
   flex-direction: column;
   margin-left: auto;
 }
+@media (max-width: 991.98px) {
+  .property_header .header_buttons {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
