@@ -17,8 +17,11 @@
     <section class="pre_content">
     <?php include "../strip/property/property_header.php"?>  
     </section>
-    <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <section class="post_content">
+        <?php include "./property/property_info_col.php"?> 
+    </section>
+    <script type="text/javascript" src="..\node_modules\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="..\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <!-- <script src="src\core\script.min.js"></script> -->
 </body>
 
