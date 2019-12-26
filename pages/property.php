@@ -14,9 +14,8 @@
         <?php include'../strip/navigation.php' ?>
 
     </header>
-    <section class="page_content">
-    <?php include "../strip/property/property_header.php"?>
-        
+    <section class="pre_content">
+    <?php include "../strip/property/property_header.php"?>  
     </section>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
