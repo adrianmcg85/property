@@ -1741,6 +1741,11 @@ header .container .account {
   border-bottom-style: solid;
   border-bottom-color: red;
 }
+@media (max-width: 991.98px) {
+  .property_nav_bar {
+    display: none;
+  }
+}
 
 .property_content {
   display: flex;
