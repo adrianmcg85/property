@@ -1,0 +1,25 @@
+.property_nav_bar{
+    display: flex;
+    .btn{
+        border: none;
+        flex: 1 1 0%;
+        text-decoration: none;
+    }
+    .active{
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: red;
+    }
+}
+.property_content{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    li{
+        flex: 0 0 50%;
+    }
+}
+}

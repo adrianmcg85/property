@@ -1728,5 +1728,31 @@ header .container .account {
     flex: 0 0 66.67%;
   }
 }
+.property_nav_bar {
+  display: flex;
+}
+.property_nav_bar .btn {
+  border: none;
+  flex: 1 1 0%;
+  text-decoration: none;
+}
+.property_nav_bar .active {
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+}
+
+.property_content {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+}
+.property_content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.property_content ul li {
+  flex: 0 0 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
