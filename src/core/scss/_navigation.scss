@@ -11,8 +11,8 @@
 }
 
 @include media-breakpoint-down(lg){
-  .nav_right{
-    margin-top: -85px
+  .nav-item:nth-of-type(1n+6){
+    display: none
   }
 }
 @include media-breakpoint-up(lg){
@@ -22,8 +22,8 @@
 
 // 
 // @include media-breakpoint-up(sm){
-  
 
+  
 // }
 @include media-breakpoint-up(md) { 
   .container{
@@ -55,7 +55,6 @@
 
 
 header {
-  height: 83px;
   padding: 0;
   position: relative;
   a, a:hover{
