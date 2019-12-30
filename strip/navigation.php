@@ -26,26 +26,22 @@
                     </li>
                 </ul>
             </nav>
-            <div class="navbar ml-auto">
+            <div class="nav_right ml-auto">
                 <div class="row">
-                    <form class="form-inline">
-                        <fieldset>
-                            <div class="fieldset_inner">
+                    <form class="form-inline site_search">
                                 <div class=" input_wrap">
                                     <input type="text" placeholder="SMART SEARCH" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <button class="btn">Search</button>
+                                    <button class="btn"></button>
                                 </div>
-                            </div>
-                        </fieldset>
-
                     </form>
 
                     <div class="account">
-                        <span class="account-name">MyMove</span>
+                        <span class="account-name">My Move</span>
                         <br>
-                        <a class="account-link">Login</a>
+                        <span class="account-symbol"></span>
+                        <a class="account-link">Login</a> /
                         <a class="account-link">Register</a>
                     </div>
                 </div>

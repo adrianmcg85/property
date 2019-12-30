@@ -9,6 +9,12 @@
     }
   }
 }
+
+@include media-breakpoint-down(lg){
+  .nav_right{
+    margin-top: -85px
+  }
+}
 @include media-breakpoint-up(lg){
 
 }
@@ -52,6 +58,12 @@ header {
   height: 83px;
   padding: 0;
   position: relative;
+  a, a:hover{
+    color: #000;
+  }
+  .navbar{
+    padding: none;
+  }
 
   .container {
     margin: 0 auto;
@@ -95,28 +107,41 @@ header {
     .right{
       width: auto;
     }
-    form {
-      display: block;
-      position: relative;
-      fieldset {
-        position: absolute;
+    .nav_right{
+      .row{
         display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
-        top: -15px;
-        right: 0px;
-        width: 300px;
-          div{
-          display: inline-block !important;
+        .site_search{
+          display: flex;
+          flex-wrap: nowrap;
+          margin-right: 10px;
+          .input_wrap{
+            flex-grow: 1;
+            flex-shrink: 1;
+          }
+          input, button{
+            height: 63px;
+          }
+          button{
+            width: 63px;
+            margin: 0;
+          }
         }
-        input, button{
-          height: 63px;
-        }
+
       }
     }
+    .site_search{
+      margin-top: 10px;
+    }
     .account {
-      // padding: 20px 16px;
+      padding: 20px 16px;
       text-align: center;
       max-width: 150px;
+      .account-symbol::before{
+        content: '\f007'; 
+        font-family: "Font Awesome 5 Free";
+      }
     }
   }
 }

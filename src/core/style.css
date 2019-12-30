@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .carousel {
   position: relative;
 }
@@ -565,7 +566,7 @@ template {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -934,6 +935,11 @@ button {
     float: right;
   }
 }
+@media (max-width: 1199.98px) {
+  .nav_right {
+    margin-top: -85px;
+  }
+}
 @media (min-width: 768px) {
   .container {
     width: 720px;
@@ -961,6 +967,12 @@ header {
   height: 83px;
   padding: 0;
   position: relative;
+}
+header a, header a:hover {
+  color: #000;
+}
+header .navbar {
+  padding: none;
 }
 header .container {
   margin: 0 auto;
@@ -1004,27 +1016,38 @@ header .container nav ul li a:hover {
 header .container .right {
   width: auto;
 }
-header .container form {
-  display: block;
-  position: relative;
+header .container .nav_right .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-header .container form fieldset {
-  position: absolute;
+header .container .nav_right .row .site_search {
   display: flex;
   flex-wrap: nowrap;
-  top: -15px;
-  right: 0px;
-  width: 300px;
+  margin-right: 10px;
 }
-header .container form fieldset div {
-  display: inline-block !important;
+header .container .nav_right .row .site_search .input_wrap {
+  flex-grow: 1;
+  flex-shrink: 1;
 }
-header .container form fieldset input, header .container form fieldset button {
+header .container .nav_right .row .site_search input, header .container .nav_right .row .site_search button {
   height: 63px;
 }
+header .container .nav_right .row .site_search button {
+  width: 63px;
+  margin: 0;
+}
+header .container .site_search {
+  margin-top: 10px;
+}
 header .container .account {
+  padding: 20px 16px;
   text-align: center;
   max-width: 150px;
+}
+header .container .account .account-symbol::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
 }
 
 @media (min-width: 576px) {

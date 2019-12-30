@@ -1,0 +1,49 @@
+header{
+    background: $secondary;
+    a, a:active, a:hover, a:focus, a:visited{
+        text-decoration: none;
+    }
+    nav, .nav_right{
+        font-size: 14px;;
+    }
+    .nav-item:hover{
+        background: #808080;;
+    }
+    .site_search{
+        .fieldset_inner>div{
+            white-space: nowrap !important;
+            display: inline !important;
+        }
+        input,button{
+            background: #555555;
+            border: none;
+        }
+        input{
+            &::placeholder{
+                color: #fff;
+            }
+        }
+        .input_wrap{
+            flex: 0 1 auto;
+            display: block;
+            width: inline-block;
+            input{
+                width: 100%;
+            }
+        }
+        button {
+            margin-left: 0 !important;
+            color: #9b8446;
+            width: 63px;
+            height: 63px;
+            padding: 17px 10px 15px;
+            &::before{
+                content: '\f002'; 
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                font-size: 30px;
+                
+            }
+        }
+    }
+}
