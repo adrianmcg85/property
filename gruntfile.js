@@ -4,7 +4,8 @@ module.exports = function (grunt) {
     watch: {
       sass: {
         files: ['src/core/scss/*.scss',
-        'src/core/scss/**/*.scss'
+        'src/core/scss/**/*.scss',
+        'src/jnp/scss/*.scss'
       ],
         tasks: ['sass', 'cssmin']
       },
@@ -15,7 +16,11 @@ module.exports = function (grunt) {
           {
           src: 'src/core/scss/style.scss',
          dest: 'src/core/style.css'
-          } 
+          } ,
+          {
+            src: 'src/jnp/scss/style.scss',
+           dest: 'src/jnp/style.css'
+            }
       ]
       }
     },
@@ -23,6 +28,10 @@ module.exports = function (grunt) {
       target_core:{
         src:'src/core/style.css',
         dest:"src/core/style.min.css"
+      },
+      target_jnp:{
+        src:'src/jnp/style.css',
+        dest:"src/jnp/style.min.css"
       },
     },
     uglify:{
