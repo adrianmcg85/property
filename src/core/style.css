@@ -1106,7 +1106,16 @@ header .container .account .account-symbol::before {
 }
 .header_content .header_image img {
   width: 100%;
-  height: 430px;
+}
+@media (max-width: 767.98px) {
+  .header_content .header_image img {
+    height: 265px;
+  }
+}
+@media (min-width: 576px) {
+  .header_content .header_image img {
+    height: 100%;
+  }
 }
 .header_content .pane {
   text-align: center;
