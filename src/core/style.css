@@ -1140,6 +1140,10 @@ header .container .account .account-symbol::before {
   border: solid black 1px;
   width: 200px;
   border-radius: 4px;
+  text-decoration: none;
+}
+.header_content .pane .btn_group a:hover {
+  text-decoration: none;
 }
 .header_content .pane .btn_group a span {
   width: 100%;
