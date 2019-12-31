@@ -1,13 +1,15 @@
 header{
+    @include media-breakpoint-up(lg){
+        .nav-item:hover{
+            background: #808080;
+        }
+    }
     background: $secondary;
     a, a:active, a:hover, a:focus, a:visited{
         text-decoration: none;
     }
     nav, .nav_right{
         font-size: 14px;;
-    }
-    .nav-item:hover{
-        background: #808080;;
     }
     .site_search{
         .fieldset_inner>div{
@@ -44,6 +46,11 @@ header{
                 font-size: 30px;
                 
             }
+        }
+    }
+    .navbar-collapse{
+        li{
+            background: $secondary;
         }
     }
 }

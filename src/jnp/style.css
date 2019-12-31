@@ -2,14 +2,16 @@
 header {
   background: #bcbdc0;
 }
+@media (min-width: 992px) {
+  header .nav-item:hover {
+    background: #808080;
+  }
+}
 header a, header a:active, header a:hover, header a:focus, header a:visited {
   text-decoration: none;
 }
 header nav, header .nav_right {
   font-size: 14px;
-}
-header .nav-item:hover {
-  background: #808080;
 }
 header .site_search .fieldset_inner > div {
   white-space: nowrap !important;
@@ -42,6 +44,9 @@ header .site_search button::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 30px;
+}
+header .navbar-collapse li {
+  background: #bcbdc0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -666,7 +666,6 @@ template {
     flex-wrap: nowrap;
   }
   .navbar-expand-sm .navbar-collapse {
-    display: flex !important;
     flex-basis: auto;
   }
   .navbar-expand-sm .navbar-toggler {
@@ -700,7 +699,6 @@ template {
     flex-wrap: nowrap;
   }
   .navbar-expand-md .navbar-collapse {
-    display: flex !important;
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
@@ -734,7 +732,6 @@ template {
     flex-wrap: nowrap;
   }
   .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
@@ -768,7 +765,6 @@ template {
     flex-wrap: nowrap;
   }
   .navbar-expand-xl .navbar-collapse {
-    display: flex !important;
     flex-basis: auto;
   }
   .navbar-expand-xl .navbar-toggler {
@@ -799,7 +795,6 @@ template {
   flex-wrap: nowrap;
 }
 .navbar-expand .navbar-collapse {
-  display: flex !important;
   flex-basis: auto;
 }
 .navbar-expand .navbar-toggler {
@@ -944,19 +939,34 @@ button {
     border: none;
     width: 35px;
     height: inherit;
-  }
-  #responsive_nav .ml-auto .navbar-toggler button {
     height: 100%;
+    padding: 0;
+    display: flex;
   }
   #responsive_nav .ml-auto .navbar-toggler span {
     margin-top: 45%;
+    flex-grow: 1;
   }
   #responsive_nav .ml-auto .navbar-toggler span::before {
     content: "";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #000;
-    width: inherit;
+  }
+  #responsive_nav .navbar-collapse {
+    position: relative;
+    width: calc(100vw - 1rem - 1px);
+    margin-top: 33px;
+    margin-left: -1rem;
+    z-index: 2;
+  }
+  #responsive_nav .navbar-collapse ul {
+    width: 100%;
+  }
+  #responsive_nav .navbar-collapse ul .nav-item {
+    border-top: #fff solid 1px;
+    width: 100%;
+    padding: 15px 20px;
   }
 }
 @media (max-width: 1199.98px) {
@@ -1079,6 +1089,7 @@ header .container .account .account-symbol::before {
     top: 150px;
     background: rgba(255, 255, 255, 0.8);
     left: 50%;
+    z-index: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 1199.98px) {
