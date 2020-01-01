@@ -80,4 +80,12 @@ header .navbar-collapse li {
   background: #bcbdc0;
 }
 
+.main_content .left h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.main_content .left p {
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */
