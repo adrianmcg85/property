@@ -56,7 +56,7 @@
                 <input type="checkbox" name="chain free" id="">
                 <span>Chain Free Only</span>
             </div>
-            <div class="btn_group form_group">
+            <div class="btn_group form_group advanced_btn">
                 <a href="#" class="btn">Filter</a>
             </div>
         </div>

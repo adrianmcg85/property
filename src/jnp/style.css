@@ -79,6 +79,14 @@ header .navbar-collapse li {
 .property_search .sale_type label {
   background: #bcbdc0;
 }
+.property_search .advanced_btn > .btn {
+  border: none;
+  background: #bcbdc0;
+  color: #000;
+}
+.property_search .advanced_btn > .btn:hover {
+  background: #afb0b4;
+}
 
 .main_content .left h1 {
   font-size: 32px;

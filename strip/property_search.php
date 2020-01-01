@@ -46,7 +46,7 @@
                     <option value="3">3+ Bedrooms</option>
                 </select>
             </div>
-            <div class="btn_group form_group">
+            <div class="btn_group form_group advanced_btn">
                 <a href="./pages/search_results.php" class="btn">Search</a>
             </div>
         </div>
