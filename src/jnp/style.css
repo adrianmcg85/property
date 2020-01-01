@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header {
-  background: #bcbdc0;
+  background: #d5d5d5;
 }
 @media (min-width: 992px) {
   header .nav-item:hover {
@@ -46,7 +46,7 @@ header .site_search button::before {
   font-size: 30px;
 }
 header .navbar-collapse li {
-  background: #bcbdc0;
+  background: #d5d5d5;
 }
 
 .header_content h2 {
@@ -68,6 +68,16 @@ header .navbar-collapse li {
 }
 .header_content .pane .btn:hover {
   background: #d0c400;
+}
+
+.property_search {
+  background: #d5d5d5;
+}
+.property_search .sale_type .active {
+  background: #fff101;
+}
+.property_search .sale_type label {
+  background: #bcbdc0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1155,6 +1155,9 @@ header .container .account .account-symbol::before {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+.property_search .container input, .property_search .container select {
+  border: none;
+}
 .property_search .container > div {
   border: 1px sold black;
   padding: 0 5px;
@@ -1162,6 +1165,10 @@ header .container .account .account-symbol::before {
 .property_search .container .sale_type {
   flex-grow: 1;
   flex-shrink: 1;
+}
+.property_search .container .sale_type label {
+  margin: 0;
+  padding: 0 2.5px;
 }
 .property_search .container .location_radius {
   flex-grow: 1;
@@ -1312,6 +1319,9 @@ header .container .account .account-symbol::before {
   width: 149px;
 }
 
+.landing_search {
+  padding: 20px 0;
+}
 .landing_search .sale_type {
   flex-basis: 17%;
 }

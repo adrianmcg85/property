@@ -3,14 +3,17 @@
         <div class="container">
             <div class="sale_type">
                 <div class="btn_group form_group">
+                    <label for="" class="active">
+                        <span>Buy <span class="desktop">&nbspProperty</span> </span> 
+                    </label>
                     <label for="">
-                        <span>Buy <span class="desktop">&nbspProperty</span> </span> </label>
-                    <label for=""><span>Rent<span class="desktop">&nbspProperty</span></span></label>
+                        <span>Rent<span class="desktop">&nbspProperty</span></span>
+                    </label>
                 </div>
             </div>
             <div class="location_radius form_group">
                 <div class="location">
-                    <input type="text">
+                    <input type="text" placeholder="Location">
                 </div>
                 <div class="radius">
                     <select name="" id="">

@@ -1,0 +1,12 @@
+.property_search{
+    background: $secondary;
+    .sale_type{
+        .active{
+            background: $primary;
+        }
+        label{
+            background: #bcbdc0;
+        }
+    }
+
+}

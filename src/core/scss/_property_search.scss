@@ -3,6 +3,9 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
+        input, select{
+            border: none;
+        }
         >div{
             border: 1px sold black;
             padding: 0 5px;
@@ -10,6 +13,10 @@
         .sale_type{
             flex-grow: 1;
             flex-shrink: 1;
+            label{
+                margin: 0;
+                padding: 0 2.5px;
+            }
         }
         .location_radius{
             flex-grow: 1;
@@ -175,6 +182,7 @@
 }
 
 .landing_search{
+    padding: 20px 0;
     .sale_type{
         flex-basis: 17%;;
     }
