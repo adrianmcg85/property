@@ -1301,22 +1301,17 @@ header .container .account .account-symbol::before {
   }
 }
 
-.search_results .sale_type {
+.results_search .sale_type {
   flex-basis: 18%;
 }
-.search_results .location_radius {
+.results_search .location_radius {
   flex-basis: 40%;
 }
-.search_results .property_price {
+.results_search .property_price {
   flex-basis: 22%;
 }
-.search_results .bedrooms {
+.results_search .bedrooms {
   flex-basis: 18%;
-}
-.search_results .btn_group {
-  flex-basis: 18%;
-  margin-left: 385px;
-  width: 149px;
 }
 
 .landing_search {

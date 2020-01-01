@@ -1,4 +1,4 @@
-<form action="" class="property_search landing_search">
+<form action="" class="property_search landing_search"> 
     <fieldset>
         <div class="container">
             <div class="sale_type">

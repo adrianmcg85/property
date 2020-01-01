@@ -1,9 +1,9 @@
-<form action="" class="property_search property_results">
+<form action="" class="property_search results_search">
     <fieldset>
         <div class="container">
             <div class="sale_type">
                 <div class="btn_group form_group">
-                    <label for="">
+                    <label for="" class="active">
                         <span>Buy <span class="desktop">&nbspProperty</span> </span> </label>
                     <label for=""><span>Rent<span class="desktop">&nbspProperty</span></span></label>
                 </div>
