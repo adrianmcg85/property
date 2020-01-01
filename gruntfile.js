@@ -5,7 +5,8 @@ module.exports = function (grunt) {
       sass: {
         files: ['src/core/scss/*.scss',
         'src/core/scss/**/*.scss',
-        'src/jnp/scss/*.scss'
+        'src/jnp/scss/*.scss',
+        'src/jnp/scss/**/*.scss'
       ],
         tasks: ['sass', 'cssmin']
       },

@@ -16,7 +16,7 @@
                         Properties Found
                     </span>
                     <a href="#">Save this property</a>
-                </div>
+                </div> 
             </div>
             <div class="header_results_display">
                 <div class="result_view">
