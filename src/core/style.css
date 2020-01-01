@@ -1424,6 +1424,7 @@ header .container .account .account-symbol::before {
 .image_widget .pre_text {
   display: block;
   text-align: center;
+  margin: 16px 0 40px;
 }
 .image_widget .row {
   display: flex;
