@@ -134,4 +134,84 @@ header .navbar-collapse li {
   cursor: pointer;
 }
 
+.search_results .property_results {
+  padding: 20px 0;
+}
+.search_results .property {
+  border: solid 1px #d5d5d5;
+  padding: 10px;
+}
+.search_results .property .info_header_left {
+  font-size: 16px;
+}
+.search_results .property .info_header_left p {
+  font-weight: 700;
+}
+.search_results .property .info_header_left h2 {
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.search_results .property .info_header_left h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #9a8348;
+}
+.search_results .property .info_address > p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.search_results .property .info_description {
+  font-size: 14px;
+}
+.search_results .property .info_features span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.search_results .property .info_features ul {
+  padding: 0;
+  list-style-type: disc;
+  column-count: 2;
+}
+.search_results .property .info_features ul li {
+  list-style-position: inside;
+}
+.search_results .property .info_buttons .btn {
+  border: none;
+  background: #d5d5d5;
+  color: #000;
+}
+.search_results .property .info_buttons .btn:hover {
+  text-decoration: none;
+}
+.search_results .property .img_button {
+  border: #9a8348 1px solid;
+}
+.search_results .property .img_button .btn {
+  color: #000;
+}
+.search_results .property .img_button .btn:hover {
+  text-decoration: none;
+}
+.search_results .property .footer_section {
+  background: #d5d5d5;
+  padding: 10px;
+  margin-top: 10px;
+}
+.search_results .property .footer_section .contact, .search_results .property .footer_section .ref {
+  font-size: 15px;
+  font-weight: 400;
+}
+.search_results .property .footer_section .contact span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.search_results .property .footer_section .contact span:hover {
+  text-decoration: none;
+}
+.search_results .property .footer_section .ref a {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=style.css.map */

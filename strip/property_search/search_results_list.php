@@ -21,6 +21,12 @@
                     <div class="img">
                         <img src="..\src\img\cat.png" alt="">
                     </div>
+                    <div class="img">
+                        <img src="..\src\img\cat.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="..\src\img\cat.png" alt="">
+                    </div>
                 </div>
                 <div class="img_button">
                         <a class="btn" href="#">Images</a>
@@ -69,10 +75,10 @@
             </div>
             <div class="footer_section">
                 <span class="contact">
-                    Cal: 01234 567890
+                    Call: <a href="#">01234 567890</a> 
                 </span>
                 <span class="ref">
-                    Ref: 12341234
+                    Ref: <span>12341234</span>
                 </span>
             </div>
         </div>
