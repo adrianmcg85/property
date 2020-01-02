@@ -1440,9 +1440,9 @@ header .container .account .account-symbol::before {
 }
 
 .page_content .search_header {
+  padding: 25px 0 20px;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0 25px;
 }
 @media (max-width: 767.98px) {
   .page_content .search_header .header_summary {
@@ -1542,6 +1542,11 @@ header .container .account .account-symbol::before {
   border: solid #000 1px;
   text-align: center;
   line-height: 48px;
+  padding: 0 10px;
+}
+.page_content .search_header .header_summary .results > span:hover,
+.page_content .search_header .header_summary .results > a:hover {
+  text-decoration: none;
 }
 .page_content .search_header .header_results_display {
   display: flex;
@@ -1557,7 +1562,7 @@ header .container .account .account-symbol::before {
 }
 .page_content .search_header .header_results_display .result_view {
   min-width: 220px;
-  margin-top: 10px;
+  margin-top: 0;
   text-align: right;
 }
 .page_content .search_header .header_results_display .result_view label {
@@ -1566,6 +1571,7 @@ header .container .account .account-symbol::before {
   margin: 0 2.5px;
   text-align: center;
   line-height: 48px;
+  min-width: 50px;
 }
 
 .search_results {

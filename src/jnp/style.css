@@ -108,4 +108,30 @@ header .navbar-collapse li {
   color: #9a9a9a;
 }
 
+.search_results {
+  border-bottom: #9a8348 solid 2px;
+}
+.search_results .search_header .search_title {
+  font-size: 2rem;
+}
+.search_results .search_header .search_title small {
+  font-size: 14px;
+}
+.search_results .search_header .results {
+  font-size: 16px;
+}
+.search_results .search_header .results .property_counter {
+  font-weight: 700;
+}
+.search_results .search_header .results > a {
+  color: #000;
+}
+.search_results .search_header .header_results_display .result_view label {
+  background: #d5d5d5;
+}
+.search_results .search_header .header_results_display .result_view label:hover {
+  background: #fff101;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

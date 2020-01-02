@@ -80,10 +80,9 @@
         }
       }
     }
-
+    padding: 25px 0 20px;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0 25px;
     .header_summary {
       display: flex;
       flex-wrap: wrap;
@@ -102,6 +101,10 @@
           border: solid #000 1px;
           text-align: center;
           line-height: 48px;
+          padding: 0 10px;
+          &:hover{
+            text-decoration: none;
+          }
         }
       }
     }
@@ -120,7 +123,7 @@
       }
       .result_view {
         min-width: 220px;
-        margin-top: 10px;
+        margin-top: 0;
         text-align: right;
         label {
           height: 50px;
@@ -128,6 +131,7 @@
           margin: 0 2.5px;
           text-align: center;
           line-height: 48px;
+          min-width: 50px;
         }
       }
     }
