@@ -918,6 +918,11 @@ button {
   }
 }
 
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 991.98px) {
   #desktop_nav {
     display: none;
@@ -1043,7 +1048,6 @@ header .container nav ul li a {
 }
 header .container nav ul li a:hover {
   box-shadow: none;
-  text-decoration: none;
   outline: none;
 }
 header .container .right {
@@ -1140,9 +1144,6 @@ header .container .account .account-symbol::before {
   border: solid black 1px;
   width: 200px;
   border-radius: 4px;
-  text-decoration: none;
-}
-.header_content .pane .btn_group a:hover {
   text-decoration: none;
 }
 .header_content .pane .btn_group a span {
@@ -1543,10 +1544,6 @@ header .container .account .account-symbol::before {
   text-align: center;
   line-height: 48px;
   padding: 0 10px;
-}
-.page_content .search_header .header_summary .results > span:hover,
-.page_content .search_header .header_summary .results > a:hover {
-  text-decoration: none;
 }
 .page_content .search_header .header_results_display {
   display: flex;
