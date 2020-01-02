@@ -920,7 +920,6 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: inherit;
 }
 
 @media (max-width: 991.98px) {

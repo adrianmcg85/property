@@ -70,19 +70,17 @@
                 font-weight: 400;
             }
             .contact{
+                a{
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #000;
+                }
+            }
+            .ref{
                 span{
                     font-size: 15px;
                     font-weight: 700;
                     color: #000;
-                    &:hover{
-                        text-decoration: none;
-                    }
-                }
-            }
-            .ref{
-                a{
-                    font-size: 15px;
-                    font-weight: 700;
                 }
             }
         }
