@@ -1,4 +1,4 @@
-<div class="search_results list_view">
+<div class="search_results">
     <div class="container">
         <div class="search_header">
             <div class="header_summary">
