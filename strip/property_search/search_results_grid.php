@@ -68,13 +68,13 @@
 
                 </div>
                 <div class="footer_section">
-                    <span class="contact">
-                        Cal: 01234 567890
-                    </span>
-                    <span class="ref">
-                        Ref: 12341234
-                    </span>
-                </div>
+                <span class="contact">
+                    Call: <a href="#">01234 567890</a> 
+                </span>
+                <span class="ref">
+                    Ref: <span>12341234</span>
+                </span>
+            </div>
             </div>
             <div class="property">
                 <div class="img_section">
@@ -143,13 +143,13 @@
 
                 </div>
                 <div class="footer_section">
-                    <span class="contact">
-                        Cal: 01234 567890
-                    </span>
-                    <span class="ref">
-                        Ref: 12341234
-                    </span>
-                </div>
+                <span class="contact">
+                    Call: <a href="#">01234 567890</a> 
+                </span>
+                <span class="ref">
+                    Ref: <span>12341234</span>
+                </span>
+            </div>
             </div>
         </div>
         <div class="search_results_map">

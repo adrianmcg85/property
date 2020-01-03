@@ -134,8 +134,8 @@ header .navbar-collapse li {
   cursor: pointer;
 }
 
-.search_results .property_results {
-  padding: 20px 0;
+.search_results {
+  margin: 20px 0;
 }
 .search_results .property {
   border: solid 1px #d5d5d5;
@@ -210,6 +210,9 @@ header .navbar-collapse li {
   font-size: 15px;
   font-weight: 700;
   color: #000;
+}
+.search_results .search_results_map {
+  border: solid #cccccc 1px;
 }
 
 /*# sourceMappingURL=style.css.map */

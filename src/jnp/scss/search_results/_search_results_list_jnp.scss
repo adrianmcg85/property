@@ -1,7 +1,5 @@
 .search_results{
-    .property_results {
-        padding: 20px 0;
-    }
+        margin: 20px 0;
     .property{
         border: solid 1px $secondary;
         padding: 10px;
@@ -84,5 +82,9 @@
                 }
             }
         }
+    }
+    .search_results_map{
+        
+        border: solid #cccccc 1px;
     }
 }
