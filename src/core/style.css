@@ -1210,8 +1210,14 @@ header .container .account .account-symbol::before {
   flex-shrink: 1;
   flex-basis: 18%;
 }
+.property_search .container .sale_agreed span, .property_search .container .new_build span, .property_search .container .chain_free span {
+  font-size: 16px;
+  font-weight: 500;
+}
 .property_search .container .sale_agreed input, .property_search .container .new_build input, .property_search .container .chain_free input {
   width: 20px;
+  font-size: 16px;
+  -webkit-appearance: checkbox;
 }
 .property_search .container .btn_group {
   flex-grow: 1;
