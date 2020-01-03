@@ -20,6 +20,7 @@
     <section class="post_content">
         <div class="property_content container">
         <?php include "./property/property_info_col.php"?> 
+        <?php include './property/property_header2_col.php' ?>
         </div>
     </section>
     <script type="module" src="..\node_modules\bootstrap\js\src\carousel.js"></script>
