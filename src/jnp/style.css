@@ -271,4 +271,32 @@ header .navbar-collapse li {
   color: #000;
 }
 
+.property_sub_content .btn {
+  color: #000;
+  border-bottom-color: #9a8348;
+}
+.property_sub_content .property_features label {
+  font-size: 16px;
+  font-weight: 400;
+}
+.property_sub_content .property_features .list_group {
+  display: flex;
+}
+.property_sub_content .property_features .list_group li {
+  flex: 0 0 50%;
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
+}
+.property_sub_content .property_features .list_group li::before {
+  background: #fff101;
+  border-radius: 4px;
+  content: "";
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 8px;
+  left: -15px;
+}
+
 /*# sourceMappingURL=style.css.map */

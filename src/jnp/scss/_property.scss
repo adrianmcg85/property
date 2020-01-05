@@ -53,3 +53,38 @@
 
   }
 }
+
+.property_sub_content{
+    .btn{
+        color: #000;
+        border-bottom-color: $tertiary;
+    }
+    .property_features{
+        label{
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .list_group{
+            display: flex;
+            li{
+                flex: 0 0 50%;
+                list-style: none;
+                position: relative;
+                margin-bottom: 10px;
+                &::before{
+                    background: $primary;
+                    border-radius: 4px;
+                    content: "";
+                    height: 8px;
+                    width: 8px;
+                    position: absolute;
+                    top: 8px;
+                    left: -15px;
+                }
+            }
+        }
+    }
+
+
+
+}
