@@ -1892,6 +1892,37 @@ header .container .account .account-symbol::before {
   font-weight: 700;
 }
 
+.social_contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+.social_contact .social_contacct_block {
+  display: flex;
+  flex: 1 1 0%;
+  text-align: center;
+  justify-content: center;
+}
+@media (max-width: 991.98px) {
+  .social_contact .social_contacct_block {
+    min-width: 100%;
+    border-bottom: #000 1px solid;
+    padding: 20px 0;
+  }
+  .social_contact .social_contacct_block:last-child {
+    border-bottom: none;
+  }
+}
+@media (min-width: 768px) {
+  .social_contact .social_contacct_block {
+    border-right: #000 1px solid;
+  }
+  .social_contact .social_contacct_block:last-child {
+    border-right: none;
+  }
+}
+
 footer {
   padding: 40px 0;
 }
