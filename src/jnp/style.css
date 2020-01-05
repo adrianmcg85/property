@@ -215,4 +215,40 @@ header .navbar-collapse li {
   border: solid #cccccc 1px;
 }
 
+.property_header {
+  padding: 30px 0;
+}
+.property_header .header_address {
+  margin: auto 0;
+}
+.property_header .details_blurb {
+  font-size: 16px;
+  font-weight: 700;
+}
+.property_header .address {
+  font-size: 22px;
+  font-weight: 400;
+}
+.property_header .price_premessage {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.property_header .price {
+  font-size: 46px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 16px;
+  line-height: 50px;
+}
+.property_header .back_search {
+  color: #000;
+  padding: 15px 10px;
+}
+.property_header .btn {
+  color: #000;
+  background-color: #fff101;
+  border: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
