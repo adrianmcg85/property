@@ -251,4 +251,24 @@ header .navbar-collapse li {
   border: 0;
 }
 
+.property_img {
+  position: relative;
+}
+.property_img .carousel-control-prev,
+.property_img .carousel-control-next {
+  background: rgba(188, 189, 192, 0.5);
+  height: 45px;
+  width: 45px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  margin: 10px;
+}
+.property_img .carousel-control-prev span,
+.property_img .carousel-control-next span {
+  color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
