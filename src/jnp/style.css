@@ -299,4 +299,14 @@ header .navbar-collapse li {
   left: -15px;
 }
 
+footer {
+  background: #d5d5d5;
+}
+footer .footer_col_header {
+  font-size: 1.15rem;
+}
+footer li {
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */
