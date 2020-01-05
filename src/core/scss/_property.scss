@@ -21,6 +21,7 @@
 
 .property_content{
     display: flex;
+    flex-direction: row !important;
     .info_col{
         min-width: auto;
         .property_tab{
