@@ -1,26 +1,29 @@
-.social_contact{
+.social_contact {
+ margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
+  .contact_wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width: 100%;
-    .social_contacct_block{
-        @include media-breakpoint-down(md){
-            min-width: 100%;
-            border-bottom: #000 1px solid;
-            padding: 20px 0;
-            &:last-child{
-                border-bottom: none;
-            }
+    .social_contacct_block {
+      @include media-breakpoint-down(md) {
+        min-width: 100%;
+        border-bottom: #000 1px solid;
+        padding: 20px 0;
+        &:last-child {
+          border-bottom: none;
         }
-        @include media-breakpoint-up(md){
-            border-right: #000 1px solid;
-            &:last-child{
-                border-right: none;
-            }
+      }
+      @include media-breakpoint-up(md) {
+        border-right: #000 1px solid;
+        &:last-child {
+          border-right: none;
         }
-        display: flex;
-        flex: 1 1 0%;
-        text-align: center;
-        justify-content: center;
+      }
+      display: flex;
+      flex: 1 1 0%;
+      text-align: center;
+      justify-content: center;
     }
+  }
 }
