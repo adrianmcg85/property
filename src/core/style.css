@@ -879,6 +879,7 @@ template {
 
 body {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 button {
