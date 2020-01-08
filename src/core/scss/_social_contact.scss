@@ -5,7 +5,7 @@
   .contact_wrapper {
     display: flex;
     flex-wrap: wrap;
-    .social_contacct_block {
+    .social_contacct__block {
       @include media-breakpoint-down(md) {
         min-width: 100%;
         border-bottom: #000 1px solid;

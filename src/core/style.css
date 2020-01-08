@@ -1901,27 +1901,27 @@ header .container .account_search__account .account__symbol::before {
   display: flex;
   flex-wrap: wrap;
 }
-.social_contact .contact_wrapper .social_contacct_block {
+.social_contact .contact_wrapper .social_contacct__block {
   display: flex;
   flex: 1 1 0%;
   text-align: center;
   justify-content: center;
 }
 @media (max-width: 991.98px) {
-  .social_contact .contact_wrapper .social_contacct_block {
+  .social_contact .contact_wrapper .social_contacct__block {
     min-width: 100%;
     border-bottom: #000 1px solid;
     padding: 20px 0;
   }
-  .social_contact .contact_wrapper .social_contacct_block:last-child {
+  .social_contact .contact_wrapper .social_contacct__block:last-child {
     border-bottom: none;
   }
 }
 @media (min-width: 768px) {
-  .social_contact .contact_wrapper .social_contacct_block {
+  .social_contact .contact_wrapper .social_contacct__block {
     border-right: #000 1px solid;
   }
-  .social_contact .contact_wrapper .social_contacct_block:last-child {
+  .social_contact .contact_wrapper .social_contacct__block:last-child {
     border-right: none;
   }
 }
