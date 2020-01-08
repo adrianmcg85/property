@@ -1343,49 +1343,49 @@ header .container .account_search__account .account__symbol::before {
   padding-top: 40px;
   padding: 10px;
 }
-.main_content .container .left, .main_content .container .right {
+.main_content .container .content_left, .main_content .container .content_right {
   padding: 0 10px;
 }
-.main_content .container .left {
+.main_content .container .content_left {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.main_content .container .left > .row {
+.main_content .container .content_left > .row {
   display: block;
 }
-.main_content .container .left .widget_header {
+.main_content .container .content_left .main_content__header {
   text-align: center;
 }
-.main_content .container .left .widget_text {
+.main_content .container .content_left .main_content__text {
   display: flex;
 }
-.main_content .container .left .widget_text .col_left,
-.main_content .container .left .widget_text .col_right {
+.main_content .container .content_left .main_content__text .col_left,
+.main_content .container .content_left .main_content__text .col_right {
   flex-grow: 1;
   flex-shrink: 1;
   padding: 0 10px;
 }
-.main_content .container .left .widget_text p {
+.main_content .container .content_left .main_content__text p {
   margin: 16px 0;
 }
-.main_content .container .right {
+.main_content .container .content_right {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.main_content .container .right img {
+.main_content .container .content_right img {
   width: 325px;
   display: block;
   margin: 0 auto;
 }
-.main_content .container .right .title, .main_content .container .right p {
+.main_content .container .content_right .content_right__title, .main_content .container .content_right p {
   text-align: center;
   display: block;
 }
-.main_content .container .right .title {
+.main_content .container .content_right .content_right__title {
   padding: 0 10px;
   margin-top: 20px;
 }
-.main_content .container .right p {
+.main_content .container .content_right p {
   margin-top: 8px;
   padding: 0 20px;
 }
@@ -1393,14 +1393,14 @@ header .container .account_search__account .account__symbol::before {
   .main_content .container {
     display: flex;
   }
-  .main_content .container .left {
+  .main_content .container .content_left {
     flex-basis: 66.6667%;
   }
-  .main_content .container .left .col_left,
-.main_content .container .left .col_right {
+  .main_content .container .content_left .col_left,
+.main_content .container .content_left .col_right {
     flex-basis: 50%;
   }
-  .main_content .container .right {
+  .main_content .container .content_right {
     flex-basis: 33.333%;
   }
 }
@@ -1408,15 +1408,15 @@ header .container .account_search__account .account__symbol::before {
   .main_content .container {
     display: block;
   }
-  .main_content .container .left {
+  .main_content .container .content_left {
     display: block;
     min-width: 100%;
   }
-  .main_content .container .left > .row {
+  .main_content .container .content_left > .row {
     display: block;
   }
-  .main_content .container .left .col_left,
-.main_content .container .left .col_right {
+  .main_content .container .content_left .col_left,
+.main_content .container .content_left .col_right {
     display: block;
     min-width: 100%;
   }

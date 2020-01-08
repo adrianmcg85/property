@@ -1,10 +1,10 @@
 <div class="main_content">
     <div class="container">
-        <div class="left">
-            <div class="row widget_header">
+        <div class="content_left">
+            <div class="row main_content__header">
                 <h1>Diam stet dolor et kasd dolore, amet amet et dolor gubergren.</h1>
             </div>
-            <div class="row widget_text">
+            <div class="row main_content__text">
                 <div class="col_left">
                     <p>
                         Justo invidunt sadipscing erat rebum et, sadipscing duo clita nonumy nonumy, tempor voluptua sed
@@ -41,9 +41,9 @@
                 </div>
             </div>
         </div>
-        <div class="right">
+        <div class="content_right">
             <img src="src/img/header_slide.jpg" alt="">
-            <div class="title">
+            <div class="content_right__title">
             <strong>Contact Us</strong>
 
             </div>
