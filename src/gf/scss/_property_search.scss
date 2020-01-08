@@ -1,11 +1,12 @@
 .property_search{
-    background: $secondary;
+    background: $tertiary;
+    color: #fff;
     .search__sale_type{
         .active{
             background: $primary;
         }
         label{
-            background: #bcbdc0;
+            background: #002591;
         }
     }
     .search__advanced_btn>.btn{
