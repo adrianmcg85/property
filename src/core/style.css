@@ -1584,6 +1584,7 @@ header .container .account_search__account .account__symbol::before {
 }
 .search_results .property_info__buttons {
   display: flex;
+  margin-top: 70px;
 }
 .search_results .property_info__buttons .btn {
   font-size: 0.8rem;

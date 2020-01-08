@@ -2,6 +2,7 @@
     display: flex;
     .property_info__buttons{
       display: flex;
+      margin-top: 70px;
       .btn{
         font-size: 0.8rem;
         flex: 1 1 0%;
@@ -44,8 +45,6 @@
     .property_img {
       display: flex;
       flex-direction: column;
-
-
       .property_img__main {
         display: block;
         img {
