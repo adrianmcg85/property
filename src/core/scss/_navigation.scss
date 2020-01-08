@@ -1,107 +1,100 @@
-@include media-breakpoint-down(md){
-  #desktop_nav{
+@include media-breakpoint-down(md) {
+  #desktop_nav {
     display: none;
   }
-  #responsive_nav{
+  #responsive_nav {
     display: block;
     height: 83px;
-    .navbar-brand{
+    .navbar-brand {
       padding: 10px;
     }
 
-    .ml-auto{
+    .ml-auto {
       float: right;
       height: 100%;
       vertical-align: middle;
-      .navbar-toggler{
+      .navbar-toggler {
         border: none;
         width: 35px;
         height: inherit;
-          height: 100%;
-          padding: 0;
-          display: flex;
+        height: 100%;
+        padding: 0;
+        display: flex;
 
-        span{
+        span {
           margin-top: 45%;
           flex-grow: 1;
-          &::before{
-          content: '\f0c9'; 
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          color: #000;
+          &::before {
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #000;
+          }
         }
       }
-      }
     }
-    .navbar-collapse{
+    .navbar-collapse {
       position: relative;
       width: calc(100vw - 1rem - 1px);
       margin-top: 33px;
       margin-left: -1rem;
       z-index: 2;
-      ul{
+      ul {
         width: 100%;
-      .nav-item{
-        border-top: #fff solid 1px;
-        width: 100%;
-      padding: 15px 20px;
+        .nav-item {
+          border-top: #fff solid 1px;
+          width: 100%;
+          padding: 15px 20px;
+        }
       }
     }
-    }
   }
 }
 
-@include media-breakpoint-down(lg){
-  .nav-item:nth-of-type(1n+6){
-    display: none
+@include media-breakpoint-down(lg) {
+  .nav-item:nth-of-type(1n + 6) {
+    display: none;
   }
 }
-@include media-breakpoint-up(lg){
-
+@include media-breakpoint-up(lg) {
 }
 
-
-// 
+//
 // @include media-breakpoint-up(sm){
 
-
 // }
-@include media-breakpoint-up(md) { 
-  .container{
+@include media-breakpoint-up(md) {
+  .container {
     width: 720px;
   }
 }
 
-@include media-breakpoint-up(lg){
-  .container{
+@include media-breakpoint-up(lg) {
+  .container {
     width: 980px;
   }
-  #desktop_nav{
+  #desktop_nav {
     display: block;
   }
-  #responsive_nav{
+  #responsive_nav {
     display: none;
   }
 }
 
-@include media-breakpoint-up(xl){
-  .container{
+@include media-breakpoint-up(xl) {
+  .container {
     width: 1380px;
   }
 }
 
-
-
-
-
-
 header {
   padding: 0;
   position: relative;
-  a, a:hover{
+  a,
+  a:hover {
     color: #000;
   }
-  .navbar{
+  .navbar {
     padding: none;
   }
 
@@ -113,7 +106,7 @@ header {
       flex-direction: row;
       flex-wrap: wrap;
       margin: 0 -10px;
-      >div{
+      > div {
         width: 100%;
       }
     }
@@ -143,46 +136,56 @@ header {
         }
       }
     }
-    .right{
+    .right {
       width: auto;
     }
-    .account_search{
-      .row{
+    .account_search {
+      .row {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        .account_search__search{
+        .account_search__search {
           display: flex;
           flex-wrap: nowrap;
           margin-right: 10px;
-          .input_wrap{
+          .input_wrap {
             flex-grow: 1;
             flex-shrink: 1;
           }
-          input, button{
+          input,
+          button {
             height: 63px;
           }
-          button{
+          input {
+            &::-moz-placeholder{
+              color: #fff;  
+            }
+            &::placeholder{
+              color: #fff;  
+              opacity: 1;
+            }
+            &::-ms-input-placeholder {
+              color: #fff;  
+            }
+          }
+          button {
             width: 63px;
             margin: 0;
           }
         }
-
       }
     }
-    .account_search__search{
+    .account_search__search {
       margin-top: 10px;
     }
     .account_search__account {
       padding: 20px 16px;
       text-align: center;
       max-width: 150px;
-      .account__symbol::before{
-        content: '\f007'; 
+      .account__symbol::before {
+        content: "\f007";
         font-family: "Font Awesome 5 Free";
       }
     }
   }
 }
-
-

@@ -20,11 +20,6 @@ header{
             background: #555555;
             border: none;
         }
-        input{
-            &::placeholder{
-                color: #fff;
-            }
-        }
         .input_wrap{
             flex: 0 1 auto;
             display: block;
