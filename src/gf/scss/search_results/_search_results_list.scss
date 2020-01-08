@@ -1,6 +1,6 @@
 .search_results{
         margin: 20px 0;
-    .property{
+    .property_results__property{
         border: solid 1px $secondary;
         padding: 10px;
         .property_info__header_left{
@@ -15,7 +15,7 @@
             h3{
                 font-size: 32px;
                 font-weight: 600;
-                color: $tertiary;
+                color: $secondary;
             }
         }
         .property_info__address > p{
@@ -44,7 +44,7 @@
             .btn{
             border: none;
             background: $secondary;
-            color: #000;
+            color: #fff;
             &:hover{
                 text-decoration: none;
             }
@@ -60,7 +60,7 @@
         }
         }
         .property_footer{
-            background: $secondary;
+            background: $quaternary;
             padding: 10px;
             margin-top: 10px;
             .contact, .ref{

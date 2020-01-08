@@ -12,11 +12,9 @@
     .search__advanced_btn>.btn{
         border: none;
         background:  $secondary;
-        color: #fff;
         &:hover{
             background: darken($secondary , 5%);
         }
-
     }
 
 }
