@@ -1162,59 +1162,59 @@ header .container .account_search__account .account__symbol::before {
   border: 1px sold black;
   padding: 0 5px;
 }
-.property_search .container .sale_type {
+.property_search .container .search__sale_type {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.property_search .container .sale_type label {
+.property_search .container .search__sale_type label {
   margin: 0;
   padding: 0 2.5px;
 }
-.property_search .container .location_radius {
+.property_search .container .search__location_radius {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.property_search .container .location_radius .location {
+.property_search .container .search__location_radius .location_radius__location {
   flex: 1 1 0%;
 }
-.property_search .container .location_radius .location input {
+.property_search .container .search__location_radius .location_radius__location input {
   width: 100%;
   height: 50px;
 }
-.property_search .container .location_radius .radius {
+.property_search .container .search__location_radius .location_radius__radius {
   width: 130px;
 }
-.property_search .container .location_radius .radius select {
+.property_search .container .search__location_radius .location_radius__radius select {
   width: 100%;
 }
-.property_search .container .property_price {
+.property_search .container .search__property_price {
   flex-grow: 1;
   flex-shrink: 1;
   display: flex;
 }
-.property_search .container .property_price > div {
+.property_search .container .search__property_price > div {
   flex: 1 1 0%;
 }
-.property_search .container .property_price > div select {
+.property_search .container .search__property_price > div select {
   width: 100%;
 }
-.property_search .container .bedrooms {
+.property_search .container .search__bedrooms {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.property_search .container .bedrooms select {
+.property_search .container .search__bedrooms select {
   width: 100%;
 }
-.property_search .container .sale_agreed, .property_search .container .new_build, .property_search .container .chain_free {
+.property_search .container .search__sale_agreed, .property_search .container .search__new_build, .property_search .container .search__chain_free {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 18%;
 }
-.property_search .container .sale_agreed span, .property_search .container .new_build span, .property_search .container .chain_free span {
+.property_search .container .search__sale_agreed span, .property_search .container .search__new_build span, .property_search .container .search__chain_free span {
   font-size: 16px;
   font-weight: 500;
 }
-.property_search .container .sale_agreed input, .property_search .container .new_build input, .property_search .container .chain_free input {
+.property_search .container .search__sale_agreed input, .property_search .container .search__new_build input, .property_search .container .search__chain_free input {
   width: 20px;
   font-size: 16px;
   -webkit-appearance: checkbox;
@@ -1284,19 +1284,19 @@ header .container .account_search__account .account__symbol::before {
   }
 }
 @media (min-width: 768px) and (max-width: 1199.98px) {
-  .property_search .container .sale_type {
+  .property_search .container .search__sale_type {
     flex: 1 1 33%;
   }
-  .property_search .container .location_radius {
+  .property_search .container .search__location_radius {
     flex: 1 1 66.66%;
   }
-  .property_search .container .property_price {
+  .property_search .container .search__property_price {
     flex: 1 1 50%;
   }
-  .property_search .container .bedrooms {
+  .property_search .container .search__bedrooms {
     flex: 1 1 50%;
   }
-  .property_search .container .sale_agreed, .property_search .container .new_build, .property_search .container .chain_free {
+  .property_search .container .search__sale_agreed, .property_search .container .search__new_build, .property_search .container .search__chain_free {
     flex: 1 1 33.33%;
   }
   .property_search .container .btn_group {
@@ -1307,32 +1307,32 @@ header .container .account_search__account .account__symbol::before {
   }
 }
 
-.results_search .sale_type {
+.results_search .search__sale_type {
   flex-basis: 18%;
 }
-.results_search .location_radius {
+.results_search .search__location_radius {
   flex-basis: 40%;
 }
-.results_search .property_price {
+.results_search .search__property_price {
   flex-basis: 22%;
 }
-.results_search .bedrooms {
+.results_search .search__bedrooms {
   flex-basis: 18%;
 }
 
 .landing_search {
   padding: 20px 0;
 }
-.landing_search .sale_type {
+.landing_search .search__sale_type {
   flex-basis: 17%;
 }
-.landing_search .location_radius {
+.landing_search .search__location_radius {
   flex-basis: 29%;
 }
-.landing_search .property_price {
+.landing_search .search__property_price {
   flex-basis: 22%;
 }
-.landing_search .bedrooms {
+.landing_search .search__bedrooms {
   flex-basis: 17%;
 }
 .landing_search .btn_group {

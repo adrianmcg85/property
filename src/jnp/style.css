@@ -73,18 +73,18 @@ header .navbar-collapse li {
 .property_search {
   background: #d5d5d5;
 }
-.property_search .sale_type .active {
+.property_search .search__sale_type .active {
   background: #fff101;
 }
-.property_search .sale_type label {
+.property_search .search__sale_type label {
   background: #bcbdc0;
 }
-.property_search .advanced_btn > .btn {
+.property_search .search__advanced_btn > .btn {
   border: none;
   background: #bcbdc0;
   color: #000;
 }
-.property_search .advanced_btn > .btn:hover {
+.property_search .search__advanced_btn > .btn:hover {
   background: #afb0b4;
 }
 
