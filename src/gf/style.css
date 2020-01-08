@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header {
-  background: #d5d5d5;
+  background: #000b2b;
 }
 @media (min-width: 992px) {
   header .nav-item:hover {
@@ -34,7 +34,7 @@ header .account_search__search .input_wrap input {
 }
 header .account_search__search button {
   margin-left: 0 !important;
-  color: #9a8348;
+  color: #2996c6;
   width: 63px;
   height: 63px;
   padding: 17px 10px 15px;
@@ -46,7 +46,7 @@ header .account_search__search button::before {
   font-size: 30px;
 }
 header .navbar-collapse li {
-  background: #d5d5d5;
+  background: #000b2b;
 }
 
 .header_content h2 {
@@ -63,18 +63,18 @@ header .navbar-collapse li {
   color: #ffffff;
 }
 .header_content .header_content__pane .btn {
-  background: #fff101;
+  background: #9a1c2a;
   color: #000000;
 }
 .header_content .header_content__pane .btn:hover {
-  background: #d0c400;
+  background: #71151f;
 }
 
 .property_search {
-  background: #d5d5d5;
+  background: #000b2b;
 }
 .property_search .search__sale_type .active {
-  background: #fff101;
+  background: #9a1c2a;
 }
 .property_search .search__sale_type label {
   background: #bcbdc0;
@@ -96,7 +96,7 @@ header .navbar-collapse li {
   font-size: 16px;
 }
 .main_content .content_right {
-  color: #9a8348;
+  color: #2996c6;
 }
 
 .image_widget .widget__pre_text h2 {
@@ -109,7 +109,7 @@ header .navbar-collapse li {
 }
 
 .search_results {
-  border-bottom: #9a8348 solid 2px;
+  border-bottom: #2996c6 solid 2px;
 }
 .search_results .search_header .search_title {
   font-size: 2rem;
@@ -127,10 +127,10 @@ header .navbar-collapse li {
   color: #000;
 }
 .search_results .search_header .search_header__results_display .display__results_view label {
-  background: #d5d5d5;
+  background: #000b2b;
 }
 .search_results .search_header .search_header__results_display .display__results_view label:hover {
-  background: #fff101;
+  background: #9a1c2a;
   cursor: pointer;
 }
 
@@ -138,7 +138,7 @@ header .navbar-collapse li {
   margin: 20px 0;
 }
 .search_results .property {
-  border: solid 1px #d5d5d5;
+  border: solid 1px #000b2b;
   padding: 10px;
 }
 .search_results .property .property_info__header_left {
@@ -154,7 +154,7 @@ header .navbar-collapse li {
 .search_results .property .property_info__header_left h3 {
   font-size: 32px;
   font-weight: 600;
-  color: #9a8348;
+  color: #2996c6;
 }
 .search_results .property .property_info__address > p {
   font-size: 16px;
@@ -177,14 +177,14 @@ header .navbar-collapse li {
 }
 .search_results .property .property_info__buttons .btn {
   border: none;
-  background: #d5d5d5;
+  background: #000b2b;
   color: #000;
 }
 .search_results .property .property_info__buttons .btn:hover {
   text-decoration: none;
 }
 .search_results .property .img_button {
-  border: #9a8348 1px solid;
+  border: #2996c6 1px solid;
 }
 .search_results .property .img_button .btn {
   color: #000;
@@ -193,7 +193,7 @@ header .navbar-collapse li {
   text-decoration: none;
 }
 .search_results .property .property_footer {
-  background: #d5d5d5;
+  background: #000b2b;
   padding: 10px;
   margin-top: 10px;
 }
@@ -247,7 +247,7 @@ header .navbar-collapse li {
 }
 .property_header .btn {
   color: #000;
-  background-color: #fff101;
+  background-color: #9a1c2a;
   border: 0;
 }
 
@@ -273,7 +273,7 @@ header .navbar-collapse li {
 
 .property_sub_content .btn {
   color: #000;
-  border-bottom-color: #9a8348;
+  border-bottom-color: #2996c6;
 }
 .property_sub_content .property_features label {
   font-size: 16px;
@@ -289,7 +289,7 @@ header .navbar-collapse li {
   margin-bottom: 10px;
 }
 .property_sub_content .property_features .list_group li::before {
-  background: #fff101;
+  background: #9a1c2a;
   border-radius: 4px;
   content: "";
   height: 8px;
@@ -309,7 +309,7 @@ header .navbar-collapse li {
 }
 
 footer {
-  background: #d5d5d5;
+  background: #000b2b;
 }
 footer .footer_col__header {
   font-size: 1.15rem;
