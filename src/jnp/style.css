@@ -120,16 +120,16 @@ header .navbar-collapse li {
 .search_results .search_header .results {
   font-size: 16px;
 }
-.search_results .search_header .results .property_counter {
+.search_results .search_header .results .matching_properties__counter {
   font-weight: 700;
 }
 .search_results .search_header .results > a {
   color: #000;
 }
-.search_results .search_header .header_results_display .result_view label {
+.search_results .search_header .search_header__results_display .display__results_view label {
   background: #d5d5d5;
 }
-.search_results .search_header .header_results_display .result_view label:hover {
+.search_results .search_header .search_header__results_display .display__results_view label:hover {
   background: #fff101;
   cursor: pointer;
 }

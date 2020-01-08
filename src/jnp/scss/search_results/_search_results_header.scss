@@ -9,15 +9,15 @@
         }
         .results{
             font-size: 16px;
-            .property_counter{
+            .matching_properties__counter{
                 font-weight: 700;
             }
             >a{
                 color: #000;
             }
         }
-        .header_results_display{
-            .result_view{
+        .search_header__results_display{
+            .display__results_view{
                 label{
                     background: $secondary;
                     &:hover{
