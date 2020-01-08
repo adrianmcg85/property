@@ -9,14 +9,15 @@
         font-weight: 400;
     }
     .header_content__pane{
-        background: #2b2b2b;
-        color: #ffffff;
-        .btn{
-            background: $primary;
-                color: #000000;
-                &:hover{
-                    background: darken($primary, 9.5%);
-                }
-        }
+        display: none;
+        // background: #2b2b2b;
+        // color: #ffffff;
+        // .btn{
+        //     background: $primary;
+        //         color: #000000;
+        //         &:hover{
+        //             background: darken($primary, 9.5%);
+        //         }
+        // }
 }
 }

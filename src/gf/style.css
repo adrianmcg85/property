@@ -7,8 +7,14 @@ header {
     background: #808080;
   }
 }
+header a, header span, header .nav-item {
+  color: #fff !important;
+}
 header a, header a:active, header a:hover, header a:focus, header a:visited {
   text-decoration: none;
+}
+header .btn:hover, header .nav-item:hover {
+  background: #000b2b;
 }
 header nav, header .account_search {
   font-size: 14px;
@@ -59,15 +65,7 @@ header .navbar-collapse li {
   font-weight: 400;
 }
 .header_content .header_content__pane {
-  background: #2b2b2b;
-  color: #ffffff;
-}
-.header_content .header_content__pane .btn {
-  background: #9a1c2a;
-  color: #000000;
-}
-.header_content .header_content__pane .btn:hover {
-  background: #71151f;
+  display: none;
 }
 
 .property_search {
@@ -246,7 +244,7 @@ header .navbar-collapse li {
   padding: 15px 10px;
 }
 .property_header .btn {
-  color: #000;
+  color: #fff;
   background-color: #9a1c2a;
   border: 0;
 }

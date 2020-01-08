@@ -5,8 +5,14 @@ header{
         }
     }
     background: $secondary;
+    a, span, .nav-item {
+        color: #fff !important;
+    }
     a, a:active, a:hover, a:focus, a:visited{
         text-decoration: none;
+    }
+    .btn:hover, .nav-item:hover{
+        background: $secondary;
     }
     nav, .account_search{
         font-size: 14px;;

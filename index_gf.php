@@ -9,8 +9,8 @@
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-    <link rel="stylesheet" href="src/core/style.min.css">
     <link rel="stylesheet" href="src/gf/style.min.css">
+    <link rel="stylesheet" href="src/core/style.min.css">
 </head>
 
 <body>
