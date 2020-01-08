@@ -1888,12 +1888,12 @@ header .container .account_search__account .account__symbol::before {
   font-size: 24px;
   font-weight: 600;
 }
-.header2_col .feature_list {
+.header2_col .key_features__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
 }
-.header2_col .feature_list .feature {
+.header2_col .key_features__list .feature_list__feature {
   text-align: center;
   flex: 0 0 50%;
   padding: 20px;
