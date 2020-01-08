@@ -1,5 +1,5 @@
 .header_content{
-    .pane{
+    .header_content__pane{
     @include media-breakpoint-up(sm){
             position: absolute;
             top:150px;
@@ -18,7 +18,7 @@
         }
     }
 
-.header_image{
+.header_content__image{
     img{
         width: 100%;
         @include media-breakpoint-down(sm){
@@ -30,7 +30,7 @@
 
     }
 }
-.pane{
+.header_content__pane{
     text-align: center;
     border: solid black 1px;
     padding: 30px 40px;

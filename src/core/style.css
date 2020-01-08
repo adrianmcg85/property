@@ -1087,7 +1087,7 @@ header .container .account_search__account .account__symbol::before {
 }
 
 @media (min-width: 576px) {
-  .header_content .pane {
+  .header_content .header_content__pane {
     position: absolute;
     top: 150px;
     background: rgba(255, 255, 255, 0.8);
@@ -1096,48 +1096,48 @@ header .container .account_search__account .account__symbol::before {
   }
 }
 @media (min-width: 576px) and (max-width: 1199.98px) {
-  .header_content .pane {
+  .header_content .header_content__pane {
     margin-left: -350px;
     width: 700px;
   }
 }
 @media (min-width: 992px) {
-  .header_content .pane {
+  .header_content .header_content__pane {
     margin-left: -200px;
     width: 400px;
   }
 }
-.header_content .header_image img {
+.header_content .header_content__image img {
   width: 100%;
 }
 @media (max-width: 767.98px) {
-  .header_content .header_image img {
+  .header_content .header_content__image img {
     height: 265px;
   }
 }
 @media (min-width: 576px) {
-  .header_content .header_image img {
+  .header_content .header_content__image img {
     height: 430px;
   }
 }
-.header_content .pane {
+.header_content .header_content__pane {
   text-align: center;
   border: solid black 1px;
   padding: 30px 40px;
 }
-.header_content .pane h2 {
+.header_content .header_content__pane h2 {
   font-size: 2rem;
 }
-.header_content .pane h3 {
+.header_content .header_content__pane h3 {
   font-size: 1.15rem;
 }
-.header_content .pane .btn_group {
+.header_content .header_content__pane .btn_group {
   width: auto;
   display: flex;
   margin: 0 -10px -10px;
   margin-bottom: 10px;
 }
-.header_content .pane .btn_group a {
+.header_content .header_content__pane .btn_group a {
   padding: 15px 10px;
   line-height: 20px;
   border: solid black 1px;
@@ -1145,7 +1145,7 @@ header .container .account_search__account .account__symbol::before {
   border-radius: 4px;
   text-decoration: none;
 }
-.header_content .pane .btn_group a span {
+.header_content .header_content__pane .btn_group a span {
   width: 100%;
   margin: 0 20px;
 }

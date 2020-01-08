@@ -58,15 +58,15 @@ header .navbar-collapse li {
 .header_content h2, .header_content h3 {
   font-weight: 400;
 }
-.header_content .pane {
+.header_content .header_content__pane {
   background: #2b2b2b;
   color: #ffffff;
 }
-.header_content .pane .btn {
+.header_content .header_content__pane .btn {
   background: #fff101;
   color: #000000;
 }
-.header_content .pane .btn:hover {
+.header_content .header_content__pane .btn:hover {
   background: #d0c400;
 }
 
