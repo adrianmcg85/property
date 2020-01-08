@@ -1858,6 +1858,15 @@ header .container .account_search__account .account__symbol::before {
   flex-direction: column;
   flex: 0 0 100%;
 }
+.property_content .property_info__col {
+  min-width: 100%;
+}
+@media (min-width: 992px) {
+  .property_content .property_info__col {
+    min-width: auto;
+    max-width: 66.6667%;
+  }
+}
 .property_content ul {
   display: flex;
   flex-wrap: wrap;

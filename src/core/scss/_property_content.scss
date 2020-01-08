@@ -19,6 +19,13 @@
     display: flex;
     flex-direction: column;
     flex: 0 0 100%;
+    .property_info__col{
+        @include media-breakpoint-up(lg){
+            min-width: auto;
+            max-width: 66.6667%;
+        }
+        min-width: 100%;
+    }
     ul{
         display: flex;
         flex-wrap: wrap;
