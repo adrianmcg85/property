@@ -6,7 +6,9 @@ module.exports = function (grunt) {
         files: ['src/core/scss/*.scss',
         'src/core/scss/**/*.scss',
         'src/jnp/scss/*.scss',
-        'src/jnp/scss/**/*.scss'
+        'src/jnp/scss/**/*.scss',
+        'src/gf/scss/*.scss',
+        'src/gf/scss/**/*.scss'
       ],
         tasks: ['sass', 'cssmin']
       },
@@ -21,7 +23,11 @@ module.exports = function (grunt) {
           {
             src: 'src/jnp/scss/style.scss',
            dest: 'src/jnp/style.css'
-            }
+            },
+            {
+              src: 'src/gf/scss/style.scss',
+             dest: 'src/gf/style.css'
+              }
       ]
       }
     },
@@ -33,6 +39,10 @@ module.exports = function (grunt) {
       target_jnp:{
         src:'src/jnp/style.css',
         dest:"src/jnp/style.min.css"
+      },
+      target_gf:{
+        src:'src/gf/style.css',
+        dest:"src/gf/style.min.css"
       },
     },
     uglify:{

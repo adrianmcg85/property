@@ -1,3 +1,321 @@
+@charset "UTF-8";
+header {
+  background: #d5d5d5;
+}
+@media (min-width: 992px) {
+  header .nav-item:hover {
+    background: #808080;
+  }
+}
+header a, header a:active, header a:hover, header a:focus, header a:visited {
+  text-decoration: none;
+}
+header nav, header .account_search {
+  font-size: 14px;
+}
+header .account_search__search .fieldset_inner > div {
+  white-space: nowrap !important;
+  display: inline !important;
+}
+header .account_search__search input, header .account_search__search button {
+  background: #555555;
+  border: none;
+}
+header .account_search__search input::placeholder {
+  color: #fff;
+}
+header .account_search__search .input_wrap {
+  flex: 0 1 auto;
+  display: block;
+  width: inline-block;
+}
+header .account_search__search .input_wrap input {
+  width: 100%;
+}
+header .account_search__search button {
+  margin-left: 0 !important;
+  color: #9a8348;
+  width: 63px;
+  height: 63px;
+  padding: 17px 10px 15px;
+}
+header .account_search__search button::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 30px;
+}
+header .navbar-collapse li {
+  background: #d5d5d5;
+}
 
+.header_content h2 {
+  font-size: 32px;
+}
+.header_content h3 {
+  font-size: 18px;
+}
+.header_content h2, .header_content h3 {
+  font-weight: 400;
+}
+.header_content .header_content__pane {
+  background: #2b2b2b;
+  color: #ffffff;
+}
+.header_content .header_content__pane .btn {
+  background: #fff101;
+  color: #000000;
+}
+.header_content .header_content__pane .btn:hover {
+  background: #d0c400;
+}
+
+.property_search {
+  background: #d5d5d5;
+}
+.property_search .search__sale_type .active {
+  background: #fff101;
+}
+.property_search .search__sale_type label {
+  background: #bcbdc0;
+}
+.property_search .search__advanced_btn > .btn {
+  border: none;
+  background: #bcbdc0;
+  color: #000;
+}
+.property_search .search__advanced_btn > .btn:hover {
+  background: #afb0b4;
+}
+
+.main_content .content_left h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.main_content .content_left p {
+  font-size: 16px;
+}
+.main_content .content_right {
+  color: #9a8348;
+}
+
+.image_widget .widget__pre_text h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.image_widget .widget_image .widget_image__title {
+  font-size: 16px;
+  color: #9a9a9a;
+}
+
+.search_results {
+  border-bottom: #9a8348 solid 2px;
+}
+.search_results .search_header .search_title {
+  font-size: 2rem;
+}
+.search_results .search_header .search_title small {
+  font-size: 14px;
+}
+.search_results .search_header .results {
+  font-size: 16px;
+}
+.search_results .search_header .results .matching_properties__counter {
+  font-weight: 700;
+}
+.search_results .search_header .results > a {
+  color: #000;
+}
+.search_results .search_header .search_header__results_display .display__results_view label {
+  background: #d5d5d5;
+}
+.search_results .search_header .search_header__results_display .display__results_view label:hover {
+  background: #fff101;
+  cursor: pointer;
+}
+
+.search_results {
+  margin: 20px 0;
+}
+.search_results .property {
+  border: solid 1px #d5d5d5;
+  padding: 10px;
+}
+.search_results .property .property_info__header_left {
+  font-size: 16px;
+}
+.search_results .property .property_info__header_left p {
+  font-weight: 700;
+}
+.search_results .property .property_info__header_left h2 {
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.search_results .property .property_info__header_left h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #9a8348;
+}
+.search_results .property .property_info__address > p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.search_results .property .property_info__description {
+  font-size: 14px;
+}
+.search_results .property .property_info__features span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.search_results .property .property_info__features ul {
+  padding: 0;
+  list-style-type: disc;
+  column-count: 2;
+}
+.search_results .property .property_info__features ul li {
+  list-style-position: inside;
+}
+.search_results .property .property_info__buttons .btn {
+  border: none;
+  background: #d5d5d5;
+  color: #000;
+}
+.search_results .property .property_info__buttons .btn:hover {
+  text-decoration: none;
+}
+.search_results .property .img_button {
+  border: #9a8348 1px solid;
+}
+.search_results .property .img_button .btn {
+  color: #000;
+}
+.search_results .property .img_button .btn:hover {
+  text-decoration: none;
+}
+.search_results .property .property_footer {
+  background: #d5d5d5;
+  padding: 10px;
+  margin-top: 10px;
+}
+.search_results .property .property_footer .contact, .search_results .property .property_footer .ref {
+  font-size: 15px;
+  font-weight: 400;
+}
+.search_results .property .property_footer .contact a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.search_results .property .property_footer .ref span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.search_results .search_results_map {
+  border: solid #cccccc 1px;
+}
+
+.property_header {
+  padding: 30px 0;
+}
+.property_header .header_address {
+  margin: auto 0;
+}
+.property_header .details_blurb {
+  font-size: 16px;
+  font-weight: 700;
+}
+.property_header .address {
+  font-size: 22px;
+  font-weight: 400;
+}
+.property_header .price_premessage {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.property_header .price {
+  font-size: 46px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 16px;
+  line-height: 50px;
+}
+.property_header .back_search {
+  color: #000;
+  padding: 15px 10px;
+}
+.property_header .btn {
+  color: #000;
+  background-color: #fff101;
+  border: 0;
+}
+
+.property_img {
+  position: relative;
+}
+.property_img .carousel-control-prev,
+.property_img .carousel-control-next {
+  background: rgba(188, 189, 192, 0.5);
+  height: 45px;
+  width: 45px;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  margin: 10px;
+}
+.property_img .carousel-control-prev span,
+.property_img .carousel-control-next span {
+  color: #000;
+}
+
+.property_sub_content .btn {
+  color: #000;
+  border-bottom-color: #9a8348;
+}
+.property_sub_content .property_features label {
+  font-size: 16px;
+  font-weight: 400;
+}
+.property_sub_content .property_features .list_group {
+  display: flex;
+}
+.property_sub_content .property_features .list_group li {
+  flex: 0 0 50%;
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
+}
+.property_sub_content .property_features .list_group li::before {
+  background: #fff101;
+  border-radius: 4px;
+  content: "";
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: 8px;
+  left: -15px;
+}
+
+.social_contact {
+  background: #555;
+}
+.social_contact .social_contacct__block {
+  color: #fff;
+  border-color: #fff !important;
+  font-size: 16px;
+}
+
+footer {
+  background: #d5d5d5;
+}
+footer .footer_col__header {
+  font-size: 1.15rem;
+}
+footer li {
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */

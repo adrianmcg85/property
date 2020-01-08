@@ -1,0 +1,21 @@
+.property_search{
+    background: $secondary;
+    .search__sale_type{
+        .active{
+            background: $primary;
+        }
+        label{
+            background: #bcbdc0;
+        }
+    }
+    .search__advanced_btn>.btn{
+        border: none;
+        background:  #bcbdc0;
+        color: #000;
+        &:hover{
+            background: darken(#bcbdc0, 5%);
+        }
+
+    }
+
+}
