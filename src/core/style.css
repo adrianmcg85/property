@@ -1547,11 +1547,13 @@ header .container .account_search__account .account__symbol::before {
 }
 .page_content .search_header .search_header__summary .summary__results > span,
 .page_content .search_header .search_header__summary .summary__results > a {
+  margin: 0 -3px;
   display: inline-block;
   border: solid #000 1px;
   text-align: center;
   line-height: 48px;
   padding: 0 10px;
+  color: #000;
 }
 .page_content .search_header .search_header__results_display {
   display: flex;
