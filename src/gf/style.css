@@ -82,6 +82,7 @@ header .navbar-collapse li {
 }
 .property_search .search__advanced_btn > .btn {
   border: none;
+  color: #fff;
   background: #000b2b;
 }
 .property_search .search__advanced_btn > .btn:hover {
