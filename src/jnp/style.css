@@ -311,7 +311,7 @@ header .navbar-collapse li {
 footer {
   background: #d5d5d5;
 }
-footer .footer_col_header {
+footer .footer_col__header {
   font-size: 1.15rem;
 }
 footer li {
