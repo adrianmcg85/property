@@ -10,36 +10,36 @@ header {
 header a, header a:active, header a:hover, header a:focus, header a:visited {
   text-decoration: none;
 }
-header nav, header .nav_right {
+header nav, header .account_search {
   font-size: 14px;
 }
-header .site_search .fieldset_inner > div {
+header .account_search__search .fieldset_inner > div {
   white-space: nowrap !important;
   display: inline !important;
 }
-header .site_search input, header .site_search button {
+header .account_search__search input, header .account_search__search button {
   background: #555555;
   border: none;
 }
-header .site_search input::placeholder {
+header .account_search__search input::placeholder {
   color: #fff;
 }
-header .site_search .input_wrap {
+header .account_search__search .input_wrap {
   flex: 0 1 auto;
   display: block;
   width: inline-block;
 }
-header .site_search .input_wrap input {
+header .account_search__search .input_wrap input {
   width: 100%;
 }
-header .site_search button {
+header .account_search__search button {
   margin-left: 0 !important;
   color: #9a8348;
   width: 63px;
   height: 63px;
   padding: 17px 10px 15px;
 }
-header .site_search button::before {
+header .account_search__search button::before {
   content: "";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;

@@ -1052,36 +1052,36 @@ header .container nav ul li a:hover {
 header .container .right {
   width: auto;
 }
-header .container .nav_right .row {
+header .container .account_search .row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
-header .container .nav_right .row .site_search {
+header .container .account_search .row .account_search__search {
   display: flex;
   flex-wrap: nowrap;
   margin-right: 10px;
 }
-header .container .nav_right .row .site_search .input_wrap {
+header .container .account_search .row .account_search__search .input_wrap {
   flex-grow: 1;
   flex-shrink: 1;
 }
-header .container .nav_right .row .site_search input, header .container .nav_right .row .site_search button {
+header .container .account_search .row .account_search__search input, header .container .account_search .row .account_search__search button {
   height: 63px;
 }
-header .container .nav_right .row .site_search button {
+header .container .account_search .row .account_search__search button {
   width: 63px;
   margin: 0;
 }
-header .container .site_search {
+header .container .account_search__search {
   margin-top: 10px;
 }
-header .container .account {
+header .container .account_search__account {
   padding: 20px 16px;
   text-align: center;
   max-width: 150px;
 }
-header .container .account .account-symbol::before {
+header .container .account_search__account .account__symbol::before {
   content: "";
   font-family: "Font Awesome 5 Free";
 }

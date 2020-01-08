@@ -146,12 +146,12 @@ header {
     .right{
       width: auto;
     }
-    .nav_right{
+    .account_search{
       .row{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        .site_search{
+        .account_search__search{
           display: flex;
           flex-wrap: nowrap;
           margin-right: 10px;
@@ -170,14 +170,14 @@ header {
 
       }
     }
-    .site_search{
+    .account_search__search{
       margin-top: 10px;
     }
-    .account {
+    .account_search__account {
       padding: 20px 16px;
       text-align: center;
       max-width: 150px;
-      .account-symbol::before{
+      .account__symbol::before{
         content: '\f007'; 
         font-family: "Font Awesome 5 Free";
       }

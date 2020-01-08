@@ -8,10 +8,10 @@ header{
     a, a:active, a:hover, a:focus, a:visited{
         text-decoration: none;
     }
-    nav, .nav_right{
+    nav, .account_search{
         font-size: 14px;;
     }
-    .site_search{
+    .account_search__search{
         .fieldset_inner>div{
             white-space: nowrap !important;
             display: inline !important;

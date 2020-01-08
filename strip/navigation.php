@@ -26,9 +26,9 @@
                     </li>
                 </ul>
             </nav>
-            <div class="nav_right ml-auto">
+            <div class="account_search ml-auto">
                 <div class="row">
-                    <form class="form-inline site_search">
+                    <form class="form-inline account_search__search">
                                 <div class=" input_wrap">
                                     <input type="text" placeholder="SMART SEARCH" class="form-control">
                                 </div>
@@ -37,12 +37,12 @@
                                 </div>
                     </form>
 
-                    <div class="account">
-                        <span class="account-name">My Move</span>
+                    <div class="account_search__account">
+                        <span class="account__name">My Move</span>
                         <br>
-                        <span class="account-symbol"></span>
-                        <a class="account-link">Login</a> /
-                        <a class="account-link">Register</a>
+                        <span class="account__symbol"></span>
+                        <a class="account__link">Login</a> /
+                        <a class="account__link">Register</a>
                     </div>
                 </div>
             </div>
