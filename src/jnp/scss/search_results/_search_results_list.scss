@@ -3,7 +3,7 @@
     .property{
         border: solid 1px $secondary;
         padding: 10px;
-        .info_header_left{
+        .property_info__header_left{
             font-size: 16px;
             p{
                 font-weight: 700;
@@ -18,14 +18,14 @@
                 color: $tertiary;
             }
         }
-        .info_address > p{
+        .property_info__address > p{
             font-size: 16px;
             font-weight: 600;
         }
-        .info_description{
+        .property_info__description{
             font-size: 14px;
         }
-        .info_features{
+        .property_info__features{
             span{
                 font-size: 16px;
                 font-weight: 600;
@@ -40,7 +40,7 @@
                 }
             }
         }
-        .info_buttons{
+        .property_info__buttons{
             .btn{
             border: none;
             background: $secondary;
@@ -59,7 +59,7 @@
             }
         }
         }
-        .footer_section{
+        .property_footer{
             background: $secondary;
             padding: 10px;
             margin-top: 10px;

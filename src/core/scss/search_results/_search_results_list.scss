@@ -1,6 +1,6 @@
 .search_results{
     display: flex;
-    .info_buttons{
+    .property_info__buttons{
       display: flex;
       .btn{
         font-size: 0.8rem;
@@ -11,19 +11,19 @@
 }
 .property_results {
   display: flex;
-  .property {
+  .property_results__property {
     display: flex;
     flex: 1 1 0%;
     flex-wrap: wrap;
-    .info_section{
+    .property__info_section{
         display: flex;
         flex: 1 1 0%;
         width: 100%;
-        .info_header {
+        .property_info__header {
             display: flex;
             flex: 1 1 0%;
             width: 100%;
-            .info_header_right {
+            .property_info__header_right {
                 display: block;
                 width: 48px;
                 span {
@@ -40,24 +40,24 @@
 
 .results_list {
   width: 100%;
-  .property {
-    .img_section {
+  .property_results__property {
+    .property_img {
       display: flex;
       flex-direction: column;
 
 
-      .main_img {
+      .property_img__main {
         display: block;
         img {
           width: 100%;
         }
       }
-      .additional_img {
+      .propert_img__additional {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         margin: 0 -2.5px 10px;
-        .img {
+        .additional_img {
           flex: 1 1 0%;
           min-width: 94px;
           max-width: 50%;
@@ -73,16 +73,16 @@
         }
       }
     }
-    .info_section {
+    .property__info_section {
       flex-direction: column;
       padding-left: 20px;
-      .info_header {
-        .info_header_left {
+      .property_info__header {
+        .property_info__header_left {
           display: block;
           flex: 1 1 0%;
         }
       }
-      .info_address {
+      .property_info__address {
         display: block;
       }
     }
@@ -90,7 +90,7 @@
       display: block;
       margin: 0;
     }
-    .footer_section {
+    .property_footer {
       display: flex;
       min-width: 100%;
       flex-basis: 0%;
@@ -107,37 +107,37 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    .property{
+    .property_results__property{
         min-width: 260px;
         flex-direction: column;
         padding: 10px;
         margin: 0 10px 10px;
-    .img_section {
+    .property_img {
       display: flex;
       flex-direction: column;
       max-width: 100%;
       margin-bottom: 10px;
 
-      .main_img {
+      .property_img__main {
         display: block;
         img {
           width: 100%;
         }
       }
     }
-    .info_section{
+    .property__info_section{
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 10px 0x;
-        .info_header_left{
+        .property_info__header_left{
             flex: 1 1 0%;
         }
     }
-    .additional_img {
+    .propert_img__additional {
       display: none;
     }
-    .info_description, .info_features, .img_button {
+    .property_info__description, .property_info__features, .img_button {
       display: none;
     }
       .btn_floorplan{
@@ -159,15 +159,15 @@
     .results_list {
       max-width: 66.6667%;
 
-      .property {
-        .img_section {
+      .property_results__property {
+        .property_img {
           max-width: 37%;
         }
       }
     }
     .results_grid{
         max-width: 66.67%;
-        .property{
+        .property_results__property{
             max-width: 33.33%;
         }
     }
@@ -188,12 +188,12 @@
   // responsive only
   @include media-breakpoint-down(md) {
     .results_list {
-      .property {
+      .property_results__property {
         max-width: 50%;
-        .img_section {
+        .property_img {
           max-width: 230px;
         }
-        .info_section {
+        .property__info_section {
           max-width: calc(100% - 230px);
         }
       }
