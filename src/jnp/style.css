@@ -99,11 +99,11 @@ header .navbar-collapse li {
   color: #9a8348;
 }
 
-.image_widget .pre_text h2 {
+.image_widget .widget__pre_text h2 {
   font-size: 24px;
   font-weight: 600;
 }
-.image_widget .widget_image .title {
+.image_widget .widget_image .widget_image__title {
   font-size: 16px;
   color: #9a9a9a;
 }
