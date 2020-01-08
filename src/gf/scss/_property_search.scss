@@ -1,7 +1,7 @@
 .property_search{
     background: $tertiary;
-    color: #fff;
     .search__sale_type{
+        color: #fff;
         .active{
             background: $primary;
         }
@@ -11,12 +11,16 @@
     }
     .search__advanced_btn>.btn{
         border: none;
-        background:  #bcbdc0;
-        color: #000;
+        background:  $secondary;
+        color: #fff;
         &:hover{
-            background: darken(#bcbdc0, 5%);
+            background: darken($secondary , 5%);
         }
 
     }
 
+}
+
+.results_search{
+    background: $quaternary;
 }

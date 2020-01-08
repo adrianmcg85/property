@@ -1307,6 +1307,9 @@ header .container .account_search__account .account__symbol::before {
   }
 }
 
+.results_search {
+  padding: 15px 2.5px 0;
+}
 .results_search .search__sale_type {
   flex-basis: 18%;
 }
