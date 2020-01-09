@@ -16,14 +16,14 @@
                     <input type="text" placeholder="Location">
                 </div>
                 <div class="location_radius__radius">
-                    <select name="" id="">
+                    <select name="">
                         <option value="1">1 Mile</option>
                     </select>
                 </div>
             </div>
             <div class="search__property_price form_group">
                 <div class="property_price__from">
-                    <select name="price from" id="">
+                    <select name="price from">
                         <option value="100000">£100,000</option>
                         <option value="200000">£200,000</option>
                         <option value="300000">£300,000</option>
@@ -31,7 +31,7 @@
                     </select>
                 </div>
                 <div class="property_price__to">
-                    <select name="price to" id="">
+                    <select name="price to">
                         <option value="100000">£100,000</option>
                         <option value="200000">£200,000</option>
                         <option value="300000">£300,000</option>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="search__bedrooms form_group">
-                <select name="bedrooms" id="">
+                <select name="bedrooms">
                     <option value="1">1+ Bedrooms</option>
                     <option value="2">2+ Bedrooms</option>
                     <option value="3">3+ Bedrooms</option>
