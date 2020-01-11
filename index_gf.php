@@ -27,8 +27,10 @@
         <?php include'strip/home/page_content.php' ?>
         <?php include'strip/image_widget.php'?>
         <?php include 'strip/social_contact.php'?>
-        <?php include'strip/footer.php'?>
     </section>
+    <footer>
+    <?php include'strip/footer.php'?>
+    </footer>
     <script type="text/javascript" src="node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
     <!-- <script src="src\core\script.min.js"></script> -->
