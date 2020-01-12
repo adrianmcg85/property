@@ -31,8 +31,10 @@
     <?php include '../strip/script_ext_library.php'?>
 
     <script type="text/javascript" src="../src/core/js/property.js"></script>
+    <?php if($_SERVER['SERVER_NAME'] === 'localhost'):?>
     <script type="modules" src="../node_modules\bootstrap\js\src\util.js"></script>
     <script type="modules" src="../node_modules\bootstrap\js\src\carousel.js"></script>
+    <?php endif ?>
     <!-- <script src="src\core\script.min.js"></script> -->
 </body>
 
