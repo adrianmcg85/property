@@ -26,11 +26,16 @@
         <?php include './property/property_header2_col.php' ?>
         </div>
     </section>
-    <script type="module" src="..\node_modules\bootstrap\js\src\carousel.js"></script>
-    <script type="module" src="..\node_modules\bootstrap\js\src\util.js"></script>
-    <?php include '../strip/script_ext_library.php'?>
-    <!-- <script src="src\core\script.min.js"></script> -->
+        <!-- <?php require '../strip/script_ext_library.php'?> -->
+    <script type="modules" src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="modules" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="../src/core/js/property.js"></script>
+    <script type="modules" src="../node_modules\bootstrap\js\src\util.js"></script>
+    <script type="modules" src="../node_modules\bootstrap\js\src\carousel.js"></script>
+    <!-- <script src="src\core\script.min.js"></script> -->
 </body>
 
 </html>
