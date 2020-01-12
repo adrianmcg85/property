@@ -28,8 +28,7 @@
     </section>
     <script type="module" src="..\node_modules\bootstrap\js\src\carousel.js"></script>
     <script type="module" src="..\node_modules\bootstrap\js\src\util.js"></script>
-    <script type="text/javascript" src="..\node_modules\jquery\dist\jquery.min.js"></script>
-    <script type="text/javascript" src="..\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <?php include '../strip/script_ext_library.php'?>
     <!-- <script src="src\core\script.min.js"></script> -->
     <script type="text/javascript" src="../src/core/js/property.js"></script>
 </body>

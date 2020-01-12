@@ -24,8 +24,7 @@
     <?php include"../strip/property_search/search_results_header.php"?>
     <?php include"../strip/property_search/search_results_grid.php" ?>
     </section>
-    <script type="text/javascript" src="..\node_modules\jquery\dist\jquery.min.js"></script>
-    <script type="text/javascript" src="..\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <?php include '../strip/script_ext_library.php'?>
     <!-- <script src="src\core\script.min.js"></script> -->
 </body>
 
