@@ -1498,7 +1498,7 @@ header .container .account_search__account .account__symbol::before {
     display: none;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 1199.98px) {
   .page_content .search_header .search_header__summary {
     flex: 0 0 58.3333%;
     display: flex;
@@ -1584,6 +1584,7 @@ header .container .account_search__account .account__symbol::before {
   min-width: 220px;
   margin-top: 0;
   text-align: right;
+  padding: 0 10px;
 }
 .page_content .search_header .search_header__results_display .display__results_view label {
   height: 50px;
@@ -1592,6 +1593,28 @@ header .container .account_search__account .account__symbol::before {
   text-align: center;
   line-height: 48px;
   min-width: 50px;
+  padding: 0 2.5px;
+}
+.page_content .search_header .search_header__results_display .display__results_view label::before {
+  margin-right: 10px;
+}
+.page_content .search_header .search_header__results_display .display__results_view .list::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #000;
+}
+.page_content .search_header .search_header__results_display .display__results_view .grid::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #000;
+}
+.page_content .search_header .search_header__results_display .display__results_view .map::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #000;
 }
 
 .search_results {

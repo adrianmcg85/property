@@ -34,7 +34,7 @@
     }
     }
 
-    @include media-breakpoint-between(sm,xl) {
+    @include media-breakpoint-between(sm,lg) {
       .search_header__summary {
         flex: 0 0 58.3333%;
         display: flex;
@@ -124,6 +124,7 @@
         min-width: 220px;
         margin-top: 0;
         text-align: right;
+        padding: 0 10px;
         label {
           height: 50px;
           width: 50px;
@@ -131,7 +132,30 @@
           text-align: center;
           line-height: 48px;
           min-width: 50px;
+          padding: 0 2.5px;
+          &::before{
+            margin-right: 10px;
+          }
         }
+        .list::before{
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #000;
+        }
+
+          .grid::before{
+              content: "\f00a";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              color: #000;
+          }   
+          .map::before{
+              content: "\f3c5";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              color: #000;
+          }        
       }
     }
   }
