@@ -20,9 +20,9 @@
             </div>
             <div class="search_header__results_display">
                 <div class="display__results_view">
-                    <label for="">L</label>
-                    <label for="">G</label>
-                    <label for="" class="desktop">M</label>
+                    <label for=""><span>List</span></label>
+                    <label for=""><span>Grid</span></label>
+                    <label for="" class="desktop"><span>Map</span></label>
 
                 </div>
                 <div class="display__sort">
