@@ -1518,6 +1518,9 @@ header .container .account_search__account .account__symbol::before {
     flex: 0 0 100%;
     text-align: right;
   }
+  .page_content .search_header .search_header__results_display .display__results_view label > span {
+    display: none;
+  }
   .page_content .search_header .search_header__results_display .display__results_view .desktop {
     display: none;
   }
