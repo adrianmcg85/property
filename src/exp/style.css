@@ -55,6 +55,11 @@ header .navbar-collapse li {
 .header_content h2, .header_content h3 {
   font-weight: 400;
 }
+.header_content .header_content__image {
+  background-image: url(../img/header_slide.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .header_content .header_content__pane {
   border-radius: 30px;
   background: #2b2b2b;

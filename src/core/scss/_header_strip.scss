@@ -19,16 +19,14 @@
     }
 
 .header_content__image{
-    img{
         width: 100%;
+
         @include media-breakpoint-down(sm){
             height: 265px;
         }
         @include media-breakpoint-up(sm){
             height: 730px;
         }
-
-    }
 }
 .header_content__pane{
     text-align: center;

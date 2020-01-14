@@ -8,6 +8,11 @@
     h2, h3{
         font-weight: 400;
     }
+    .header_content__image{
+        background-image: url(../img/header_slide.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
     .header_content__pane{
         border-radius: 30px;
 
