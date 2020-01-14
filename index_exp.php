@@ -23,7 +23,6 @@
     </section>
     <section>
         <?php include'strip/property_search.php' ?>
-        <?php include'strip/property_search/property_search.php' ?>
         <?php include'strip/home/page_content.php' ?>
         <?php include'strip/image_widget.php'?>
         <?php include 'strip/social_contact.php'?>
