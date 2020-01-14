@@ -1163,7 +1163,13 @@ header .container .account_search__account .account__symbol::before {
   margin: 0 20px;
 }
 
+.property_search {
+  width: 65%;
+  margin: 0 auto;
+}
 .property_search .container {
+  width: 100%;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -1178,6 +1184,7 @@ header .container .account_search__account .account__symbol::before {
 .property_search .container .search__sale_type {
   flex-grow: 1;
   flex-shrink: 1;
+  min-width: 300px;
 }
 .property_search .container .search__sale_type label {
   margin: 0;
@@ -1189,6 +1196,7 @@ header .container .account_search__account .account__symbol::before {
 }
 .property_search .container .search__location_radius .location_radius__location {
   flex: 1 1 0%;
+  min-width: 300px;
 }
 .property_search .container .search__location_radius .location_radius__location input {
   width: 100%;
@@ -1254,7 +1262,7 @@ header .container .account_search__account .account__symbol::before {
 }
 .property_search .container .form_group {
   display: flex;
-  margin-bottom: 15px;
+  margin: 10px 0;
   height: 50px;
   padding: 0 5px;
 }
