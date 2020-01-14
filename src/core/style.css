@@ -1571,6 +1571,13 @@ header .container .account_search__account .account__symbol::before {
   padding: 0 10px;
   color: #000;
 }
+.page_content .search_header .search_header__summary .summary__results > a::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #000;
+  margin-right: 5px;
+}
 .page_content .search_header .search_header__results_display {
   display: flex;
   flex-wrap: wrap;
