@@ -56,6 +56,7 @@ header .navbar-collapse li {
   font-weight: 400;
 }
 .header_content .header_content__pane {
+  border-radius: 30px;
   background: #2b2b2b;
   color: #ffffff;
 }
