@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <link rel="stylesheet" href="src/core/style.min.css">
-    <link rel="stylesheet" href="src/exp/style.min.css">
+    <link rel="stylesheet" href="src/jnp/style.min.css">
 </head>
 
 <body>

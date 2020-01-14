@@ -1,0 +1,22 @@
+.header_content{
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h2, h3{
+        font-weight: 400;
+    }
+    .header_content__pane{
+        background: #2b2b2b;
+        color: #ffffff;
+        .btn{
+            background: $primary;
+                color: #000000;
+                &:hover{
+                    background: darken($primary, 9.5%);
+                }
+        }
+}
+}

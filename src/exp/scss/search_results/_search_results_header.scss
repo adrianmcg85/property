@@ -1,0 +1,31 @@
+.search_results{
+    border-bottom: $tertiary solid 2px;
+    .search_header{
+        .search_title{
+            font-size: 2rem;;
+            small{
+                font-size: 14px;
+            }
+        }
+        .results{
+            font-size: 16px;
+            .matching_properties__counter{
+                font-weight: 700;
+            }
+            >a{
+                color: #000;
+            }
+        }
+        .search_header__results_display{
+            .display__results_view{
+                label{
+                    background: $secondary;
+                    &:hover{
+                        background: $primary;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
