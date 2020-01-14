@@ -15,7 +15,7 @@
                         <span class="matching_properties__counter">100</span>
                         Properties Found
                     </span>
-                    <a href="#">Save this property</a>
+                    <a href="#">Save this search</a>
                 </div> 
             </div>
             <div class="search_header__results_display">
