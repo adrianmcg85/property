@@ -1130,7 +1130,7 @@ header .container .account_search__account .account__symbol::before {
 }
 @media (min-width: 576px) {
   .header_content .header_content__image img {
-    height: 430px;
+    height: 730px;
   }
 }
 .header_content .header_content__pane {
@@ -1165,7 +1165,9 @@ header .container .account_search__account .account__symbol::before {
 
 .property_search {
   width: 65%;
-  margin: 0 auto;
+  position: absolute;
+  margin: -300px 17.5% 0;
+  border-radius: 20px;
 }
 .property_search .container {
   width: 100%;
