@@ -8,6 +8,12 @@
     @include media-breakpoint-up(sm){
         height: 730px !important;
     }
+    .header_image__overlay{
+        list-style: none;
+        position: absolute;
+        li{
+        }
+    }
 }
 .property_search{
     width: 65%;

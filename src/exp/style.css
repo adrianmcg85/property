@@ -330,7 +330,10 @@ footer li {
     height: 730px !important;
   }
 }
-
+.header_content__image .header_image__overlay {
+  list-style: none;
+  position: absolute;
+}
 .property_search {
   width: 65%;
   position: absolute;
