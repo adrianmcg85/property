@@ -62,7 +62,6 @@ header .navbar-collapse li {
   background-attachment: fixed;
 }
 .header_content .header_content__pane {
-  border-radius: 30px;
   background: #2b2b2b;
   color: #ffffff;
 }
@@ -320,6 +319,36 @@ footer .footer_col__header {
 }
 footer li {
   font-size: 16px;
+}
+
+.header_content .header_content__pane {
+  border-radius: 30px;
+}
+
+@media (min-width: 576px) {
+  .header_content__image {
+    height: 730px !important;
+  }
+}
+
+.property_search {
+  width: 65%;
+  position: absolute;
+  margin: -300px 17.5% 0;
+  border-radius: 20px;
+}
+.property_search .container {
+  width: 100%;
+  padding: 20px;
+}
+.property_search .search__sale_type {
+  min-width: 300px;
+}
+.property_search .location_radius__location {
+  min-width: 300px;
+}
+.property_search .form_group {
+  margin: 10px 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

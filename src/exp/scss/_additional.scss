@@ -1,0 +1,30 @@
+.header_content{
+    .header_content__pane{
+        border-radius: 30px;
+
+    }
+}
+.header_content__image{
+    @include media-breakpoint-up(sm){
+        height: 730px !important;
+    }
+}
+.property_search{
+    width: 65%;
+    position: absolute;
+    margin: -300px 17.5% 0;
+    border-radius: 20px;
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+    .search__sale_type{
+        min-width: 300px;
+    }
+    .location_radius__location{
+        min-width: 300px;
+    }
+    .form_group{
+        margin: 10px 0 !important;
+    }
+}
