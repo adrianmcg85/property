@@ -19,7 +19,7 @@
             padding: 2.5px 1px;
             $items: 36;
             $item-width: (2px * $items);
-            $margin: calc((100% / #{$items})/2);
+            $margin: calc(((100% / #{$items}) - 6px)/2);
             position: relative;
             animation-iteration-count: infinite;
             animation-direction: normal;
