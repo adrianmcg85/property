@@ -19,7 +19,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "sal.js": "^0.7.1"
   },
   "devDependencies": {
     "grunt": "^1.0.4",

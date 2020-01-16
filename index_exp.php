@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="src/core/style.min.css">
     <link rel="stylesheet" href="src/exp/style.min.css">
+    <link rel="stylesheet" href="node_modules/sal.js/dist/sal.css">
 </head>
 
 <body>
@@ -33,6 +34,10 @@
     </footer>
     <?php include 'strip/script_ext_library.php'?>
  <!-- <script src="src\core\script.min.js"></script> -->
+<script src="./node_modules/sal.js/dist/sal.js"></script>
+<script>
+sal()
+</script>
 </body>
 
 </html>

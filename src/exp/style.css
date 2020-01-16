@@ -343,8 +343,8 @@ footer li {
   position: relative;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  margin-left: calc((100% / 36)/2);
-  margin-right: calc((100% / 36)/2);
+  margin-left: calc(((100% / 36) - 6px)/2);
+  margin-right: calc(((100% / 36) - 6px)/2);
   display: inline;
   animation-duration: 70s;
 }
@@ -424,6 +424,15 @@ footer li {
 }
 .property_search .form_group {
   margin: 10px 0 !important;
+}
+
+.animated_text {
+  display: flex;
+}
+.animated_text > div {
+  display: inline-block;
+  flex: 1 1 0%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
