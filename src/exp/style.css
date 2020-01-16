@@ -330,10 +330,82 @@ footer li {
     height: 730px !important;
   }
 }
-.header_content__image .header_image__overlay {
-  list-style: none;
-  position: absolute;
+.header_content__image .header_image__overlay_1 > li {
+  margin-bottom: 200px;
 }
+.header_content__image .header_image__overlay_1, .header_content__image .header_image__overlay_2 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.header_content__image .header_image__overlay_1 li, .header_content__image .header_image__overlay_2 li {
+  padding: 2.5px 1px;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  margin-left: calc((100% / 36)/2);
+  margin-right: calc((100% / 36)/2);
+  display: inline;
+  animation-duration: 70s;
+}
+.header_content__image .header_image__overlay_1 li:nth-child(3n), .header_content__image .header_image__overlay_2 li:nth-child(3n) {
+  background: red;
+}
+.header_content__image .header_image__overlay_1 li:nth-child(3n+1), .header_content__image .header_image__overlay_2 li:nth-child(3n+1) {
+  background: green;
+}
+.header_content__image .header_image__overlay_1 li:nth-child(3n+2), .header_content__image .header_image__overlay_2 li:nth-child(3n+2) {
+  background: blue;
+}
+.header_content__image .header_image__overlay_1 li:nth-child(4n), .header_content__image .header_image__overlay_2 li:nth-child(4n) {
+  animation-name: house;
+  transform: rotate(45deg);
+}
+@keyframes house {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 200px;
+  }
+}
+.header_content__image .header_image__overlay_1 li:nth-child(4n+1), .header_content__image .header_image__overlay_2 li:nth-child(4n+1) {
+  animation-name: house2;
+  transform: rotate(80deg);
+}
+@keyframes house2 {
+  0% {
+    top: 150px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+.header_content__image .header_image__overlay_1 li:nth-child(4n+2), .header_content__image .header_image__overlay_2 li:nth-child(4n+2) {
+  animation-name: house3;
+  transform: rotate(110deg);
+}
+@keyframes house3 {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 320px;
+  }
+}
+.header_content__image .header_image__overlay_1 li:nth-child(4n+3), .header_content__image .header_image__overlay_2 li:nth-child(4n+3) {
+  animation-name: house4;
+  transform: rotate(90deg);
+}
+@keyframes house4 {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 250px;
+  }
+}
+
 .property_search {
   width: 65%;
   position: absolute;

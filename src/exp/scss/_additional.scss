@@ -8,12 +8,117 @@
     @include media-breakpoint-up(sm){
         height: 730px !important;
     }
-    .header_image__overlay{
-        list-style: none;
-        position: absolute;
-        li{
-        }
+    .header_image__overlay_1 > li{
+        margin-bottom: 200px;
     }
+    .header_image__overlay_1, .header_image__overlay_2{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        li{
+            padding: 2.5px 1px;
+            $items: 36;
+            $item-width: (2px * $items);
+            $margin: calc((100% / #{$items})/2);
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            margin-left: $margin;
+            margin-right: $margin;
+            display: inline;
+
+            animation-duration: 70s;
+              &:nth-child(3n){
+                  background: red;
+              }
+              &:nth-child(3n + 1){
+                background: green;
+            }
+            &:nth-child(3n + 2){
+                background: blue;
+            }
+            &:nth-child(4n){
+                animation-name: house;
+                @keyframes house {
+                    0%   {top: 0px;}
+                    100%   {top: 200px;}
+                  }
+                transform: rotate(45deg);
+            }
+            &:nth-child(4n + 1){
+                animation-name: house2;
+                @keyframes house2 {
+                    0%   {top: 150px;}
+                    100%   {top: 300px;}
+                  }
+              transform: rotate(80deg);
+          }
+          &:nth-child(4n + 2){
+            animation-name: house3;
+            @keyframes house3 {
+                0%   {top: 100px;}
+                100%   {top: 320px;}
+              }
+              transform: rotate(110deg);
+          }
+          &:nth-child(4n + 3){
+            animation-name: house4;
+            @keyframes house4 {
+                0%   {top: 50px;}
+                100%   {top: 250px;}
+              }
+              transform: rotate(90deg);
+          }
+        //   @keyframes house {
+        //     0%   {left: 0px;}
+        //     20% { left: -5px;}
+        //     40% { left: 100px;}
+        //     60% { left: -5px;}
+        //     80% { left: 10px;}
+        //     100%   {left: 0px;}
+        //   }
+//             &:nth-child(4n){
+//                 animation-duration: 41s;
+//             }
+//             &:nth-child(4n + 1){
+//                 animation-duration: 20s;
+//             }
+//             &:nth-child(4n + 2){
+//                 animation-duration: 33s;
+//             }
+//             &:nth-child(4n + 3){
+//                 animation-duration: 46s;
+//             }
+//             &:nth-child(7n + 1){
+//                 animation-delay: 20s;
+//             }
+//             &:nth-child(7n + 3){
+//                 animation-delay: 35s;
+//             }
+//             &:nth-child(7n + 4){
+//                 animation-delay: 10s;
+//             }
+//             &:nth-child(7n + 5){
+//                 animation-delay: 25s;
+//             }
+//             &:nth-child(7n + 6){
+//                 animation-delay: 15s;
+//             }
+
+// // 
+//             &:nth-child(odd){
+//                 animation-direction: reverse;
+//             }
+
+            // &::before{
+            // content: "\f015";
+            // font-family: "Font Awesome 5 Free";
+            // font-weight: 900;
+            // font-size: 24px;
+            // color: rgba($color: #000, $alpha: 0.6);
+            // }
+    }
+}
 }
 .property_search{
     width: 65%;
