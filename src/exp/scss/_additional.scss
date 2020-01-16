@@ -99,3 +99,12 @@
         margin: 10px 0 !important;
     }
 }
+
+.animated_text{
+    display: flex;
+    >div{
+        display: inline-block;
+        flex: 1 1 0%;
+        text-align: center;
+    }
+}
