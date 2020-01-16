@@ -36,7 +36,10 @@
  <!-- <script src="src\core\script.min.js"></script> -->
 <script src="./node_modules/sal.js/dist/sal.js"></script>
 <script>
-sal()
+sal({
+    theshold: 1,
+    once: false,
+})
 </script>
 </body>
 
