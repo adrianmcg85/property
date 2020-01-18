@@ -441,4 +441,8 @@ footer li {
   text-transform: capitalize;
 }
 
+.widget_image:hover img {
+  box-shadow: 5px 5px 2px #ccc;
+}
+
 /*# sourceMappingURL=style.css.map */

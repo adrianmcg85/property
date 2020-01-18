@@ -115,3 +115,11 @@
 
     }
 }
+
+.widget_image{
+    &:hover{
+        img{
+       box-shadow: 5px 5px 2px #ccc;
+        }
+    }
+}
