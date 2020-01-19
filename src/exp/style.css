@@ -333,31 +333,37 @@ footer li {
 .header_content__image .header_image__overlay_1 > li {
   margin-bottom: 200px;
 }
-.header_content__image .header_image__overlay_1, .header_content__image .header_image__overlay_2 {
+.header_content__image .header_image__overlay_1,
+.header_content__image .header_image__overlay_2 {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
-.header_content__image .header_image__overlay_1 li, .header_content__image .header_image__overlay_2 li {
+.header_content__image .header_image__overlay_1 li,
+.header_content__image .header_image__overlay_2 li {
   padding: 2.5px 1px;
   position: relative;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  margin-left: calc(((100% / 36) - 6px)/2);
-  margin-right: calc(((100% / 36) - 6px)/2);
+  margin-left: calc(((100% / 36) - 6px) / 2);
+  margin-right: calc(((100% / 36) - 6px) / 2);
   display: inline;
   animation-duration: 70s;
 }
-.header_content__image .header_image__overlay_1 li:nth-child(3n), .header_content__image .header_image__overlay_2 li:nth-child(3n) {
+.header_content__image .header_image__overlay_1 li:nth-child(3n),
+.header_content__image .header_image__overlay_2 li:nth-child(3n) {
   background: red;
 }
-.header_content__image .header_image__overlay_1 li:nth-child(3n+1), .header_content__image .header_image__overlay_2 li:nth-child(3n+1) {
+.header_content__image .header_image__overlay_1 li:nth-child(3n+1),
+.header_content__image .header_image__overlay_2 li:nth-child(3n+1) {
   background: green;
 }
-.header_content__image .header_image__overlay_1 li:nth-child(3n+2), .header_content__image .header_image__overlay_2 li:nth-child(3n+2) {
+.header_content__image .header_image__overlay_1 li:nth-child(3n+2),
+.header_content__image .header_image__overlay_2 li:nth-child(3n+2) {
   background: blue;
 }
-.header_content__image .header_image__overlay_1 li:nth-child(4n), .header_content__image .header_image__overlay_2 li:nth-child(4n) {
+.header_content__image .header_image__overlay_1 li:nth-child(4n),
+.header_content__image .header_image__overlay_2 li:nth-child(4n) {
   animation-name: house;
   transform: rotate(45deg);
 }
@@ -369,7 +375,8 @@ footer li {
     top: 200px;
   }
 }
-.header_content__image .header_image__overlay_1 li:nth-child(4n+1), .header_content__image .header_image__overlay_2 li:nth-child(4n+1) {
+.header_content__image .header_image__overlay_1 li:nth-child(4n+1),
+.header_content__image .header_image__overlay_2 li:nth-child(4n+1) {
   animation-name: house2;
   transform: rotate(80deg);
 }
@@ -381,7 +388,8 @@ footer li {
     top: 300px;
   }
 }
-.header_content__image .header_image__overlay_1 li:nth-child(4n+2), .header_content__image .header_image__overlay_2 li:nth-child(4n+2) {
+.header_content__image .header_image__overlay_1 li:nth-child(4n+2),
+.header_content__image .header_image__overlay_2 li:nth-child(4n+2) {
   animation-name: house3;
   transform: rotate(110deg);
 }
@@ -393,7 +401,8 @@ footer li {
     top: 320px;
   }
 }
-.header_content__image .header_image__overlay_1 li:nth-child(4n+3), .header_content__image .header_image__overlay_2 li:nth-child(4n+3) {
+.header_content__image .header_image__overlay_1 li:nth-child(4n+3),
+.header_content__image .header_image__overlay_2 li:nth-child(4n+3) {
   animation-name: house4;
   transform: rotate(90deg);
 }
@@ -430,15 +439,48 @@ footer li {
   padding: 20px 0;
   display: flex;
 }
-.animated_text > div {
-  display: inline-block;
+.animated_text .card {
+  position: relative;
   flex: 1 1 0%;
+  margin: 0 10px;
   text-align: center;
   font-size: 2em;
-  font-weight: 700;
-  color: #444;
+  background-color: transparent;
+  perspective: 1000px;
+}
+.animated_text .card:hover .card__inner {
+  transform: rotateX(180deg);
+}
+.animated_text .card .card__inner {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  border: solid #d5d5d5 2px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transform-style: preserve-3d;
+}
+.animated_text .card .card__inner .card__front,
+.animated_text .card .card__inner .card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.animated_text .card .card__inner .card__front {
+  font-weight: 400;
+  color: #000;
   text-shadow: 2px 2px #d5d5d5;
   text-transform: capitalize;
+}
+.animated_text .card .card__inner .card__back {
+  color: #000;
+  padding: 10px;
+  font-size: 0.6em;
+  transform: rotateX(180deg);
 }
 
 .widget_image:hover img {

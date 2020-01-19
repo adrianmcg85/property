@@ -1,6 +1,46 @@
 <div class="animated_text">
-<div class="val" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ese-out-bounce">Valuation</div>
-<div class="marketing" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ese-out-bounce">Marketing</div>
-<div class="contact" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ese-out-bounce">contact</div>
-<div class="sell" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ese-out-bounce">Sell and beyond</div>
+    <div class="val card" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300"
+        data-sal-easing="ese-out-bounce">
+        <div class="card__inner">
+            <div class="card__front">
+                Valuation
+            </div>
+            <div class="card__back">
+                back text
+            </div>
+        </div>
+    </div>
+    <div class="marketing card" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300"
+        data-sal-easing="ese-out-bounce">
+        <div class="card__inner">
+            <div class="card__front">
+                marketing
+            </div>
+            <div class="card__back">
+                back text
+            </div>
+        </div>
+    </div>
+    <div class="contact card" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300"
+        data-sal-easing="ese-out-bounce">
+        <div class="card__inner">
+            <div class="card__front">
+                Contact
+            </div>
+            <div class="card__back">
+                back text
+            </div>
+        </div>
+    </div>
+    <div class="sell card" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300"
+        data-sal-easing="ese-out-bounce">
+        <div class="card__inner">
+            <div class="card__front">
+                Sell and Beyond
+            </div>
+            <div class="card__back">
+                back text
+            </div>
+        </div>
+    </div>
 </div>
