@@ -191,20 +191,38 @@ header {
 }
 
 #desktop_navbar{
+  $nav_height: 83px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: nav_height;
+  a,
+  a:hover {
+    color: #000;
+    text-transform: none;
+  }
   .brand_main_nav{
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
+
     .brand{
       width: 120px;
+      >a{
+        line-height: $nav_height;
+        padding: 0;
+      }
     }
     .main_nav{
       list-style: none;
-      li{
+      margin: 0;
+      .nav-item{
         display: inline-block;
+        font-size: 14px;
+        padding: 0 20px;
+        >a{
+          line-height: $nav_height;
+        }
         &:hover{
           .subnav{
             display: flex;

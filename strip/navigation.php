@@ -81,9 +81,9 @@
         <div class="brand">
             <a href="#" class="navbar-brand">Brand</a>
         </div>
-        <ul class="main_nav navbar-collapse">
-            <li class="nav-item">
-                Buy
+        <div class="main_nav navbar-collapse">
+            <div class="nav-item">
+                <a href="#" class="nav-link">Buy</a>
                 <div class="subnav">
                     <div class="subnav__list">
                         <div class="header">List Header</div>
@@ -114,9 +114,9 @@
                         <a href="#">List item</a>
                     </div>
                 </div>
-            </li>
-            <li class="nav-item">
-                Sell
+            </div>
+            <div class="nav-item">
+                <a href="#" class="navlink">Sell</a>
                 <div class="subnav">
                     <div class="subnav__list">
                         <div class="header">List Header</div>
@@ -147,15 +147,15 @@
                         <a href="#">List item</a>
                     </div>
                 </div>
-            </li>
-            <li class="nav-item">
-                Rent
-            </li>
-            <li class="nav-item">
-                Landlord
-            </li>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="nav-link">Rent</a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="nav-link">Landlord</a>
+            </div>
 
-        </ul>
+        </div>
     </div>
     <div class="search_account">
         <div class="nav__search">

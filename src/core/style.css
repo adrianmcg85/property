@@ -1103,6 +1103,12 @@ header .container .account_search__account .account__symbol::before {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  height: nav_height;
+}
+#desktop_navbar a,
+#desktop_navbar a:hover {
+  color: #000;
+  text-transform: none;
 }
 #desktop_navbar .brand_main_nav {
   flex-grow: 1;
@@ -1112,19 +1118,29 @@ header .container .account_search__account .account__symbol::before {
 #desktop_navbar .brand_main_nav .brand {
   width: 120px;
 }
+#desktop_navbar .brand_main_nav .brand > a {
+  line-height: 83px;
+  padding: 0;
+}
 #desktop_navbar .brand_main_nav .main_nav {
   list-style: none;
+  margin: 0;
 }
-#desktop_navbar .brand_main_nav .main_nav li {
+#desktop_navbar .brand_main_nav .main_nav .nav-item {
   display: inline-block;
+  font-size: 14px;
+  padding: 0 20px;
 }
-#desktop_navbar .brand_main_nav .main_nav li:hover .subnav {
+#desktop_navbar .brand_main_nav .main_nav .nav-item > a {
+  line-height: 83px;
+}
+#desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav {
   display: flex;
   position: absolute;
   left: 120px;
   width: calc(100% - 130px);
 }
-#desktop_navbar .brand_main_nav .main_nav li:hover .subnav .subnav__list {
+#desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list {
   display: flex;
   flex-direction: column;
   flex-basis: 25%;
