@@ -75,36 +75,38 @@
     </ul>
   </div>
 </nav> -->
-
+<?php $http = !isset($_SERVER['HTTPS'])|| $_SERVER['HTTPS'] != 'on' ? 'http' : 'http';
+$base = $http. '://' . $_SERVER['HTTP_HOST'];
+?>
 <div id="desktop_navbar" class="container navbar navbar-expand-lg navbar-light">
     <div class="brand_main_nav">
         <div class="brand">
-            <a href="#" class="navbar-brand">Brand</a>
+            <a href="<?php echo $base ?>/lsli/index.php" class="navbar-brand">Brand</a>
         </div>
         <div class="main_nav navbar-collapse">
             <div class="nav-item">
-                <a href="#" class="nav-link">Buy</a>
+                <a href="#" class="nav-link">Links</a>
                 <div class="subnav">
                     <div class="subnav__list">
-                        <div class="header">List Header</div>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
+                        <div class="header">Core</div>
+                        <a href="<?php echo $base ?>/lsli/index.php">Index</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results.php">Search - List</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results_grid.php">Search - Grid</a>
+                        <a href="<?php echo $base ?>/lsli/pages/property.php">Property</a>
                     </div>
                     <div class="subnav__list">
-                        <div class="header">List Header</div>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
+                        <div class="header">JNP</div>
+                        <a href="<?php echo $base ?>/lsli/index_jnp.php">Index</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results_jnp.php">Search - List</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results_grid_jnp.php">Search - Grid</a>
+                        <a href="<?php echo $base ?>/lsli/pages/property_jnp.php">Property</a>
                     </div>
                     <div class="subnav__list">
-                        <div class="header">List Header</div>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
-                        <a href="#">List item</a>
+                        <div class="header">Goodfellows</div>
+                        <a href="<?php echo $base ?>/lsli/index_gf.php">Index</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results_gf.php">Search - List</a>
+                        <a href="<?php echo $base ?>/lsli/pages/search_results_grid_gf.php">Search - Grid</a>
+                        <a href="<?php echo $base ?>/lsli/pages/property_gf.php">Property</a>
                     </div>
                     <div class="subnav__list">
                         <div class="header">List Header</div>
