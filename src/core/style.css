@@ -1138,13 +1138,27 @@ header .container .account_search__account .account__symbol::before {
   display: flex;
   position: absolute;
   left: 120px;
+  background: #fff;
   width: calc(100% - 130px);
+  z-index: 10;
+  padding: 25px 30px 40px 30px;
 }
 #desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
   flex-basis: 25%;
   flex-grow: 0;
+}
+#desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list .header {
+  font-weight: 800;
+  border-bottom: solid 2px #000;
+}
+#desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list > a {
+  border-bottom: solid 1px #000;
+}
+#desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list > a, #desktop_navbar .brand_main_nav .main_nav .nav-item:hover .subnav .subnav__list > div {
+  padding: 15px 30px 15px 0px;
 }
 #desktop_navbar .brand_main_nav .main_nav .subnav {
   display: none;
@@ -1153,15 +1167,40 @@ header .container .account_search__account .account__symbol::before {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  align-items: center;
 }
 #desktop_navbar .search_account .nav__search {
   width: 300px;
   display: flex;
 }
+#desktop_navbar .search_account .nav__search input,
+#desktop_navbar .search_account .nav__search button {
+  height: 63px;
+}
+#desktop_navbar .search_account .nav__search input::-moz-placeholder {
+  color: #fff;
+}
+#desktop_navbar .search_account .nav__search input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#desktop_navbar .search_account .nav__search input::-ms-input-placeholder {
+  color: #fff;
+}
+#desktop_navbar .search_account .nav__search button {
+  width: 63px;
+  margin: 0;
+}
 #desktop_navbar .search_account .nav__account {
   display: flex;
   flex-direction: column;
   min-width: 150px;
+  padding: 20px 16px;
+  text-align: center;
+}
+#desktop_navbar .search_account .nav__account .account__symbol::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
 }
 
 @media (min-width: 576px) {
