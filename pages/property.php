@@ -10,9 +10,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <link rel="stylesheet" href="../src/core/style.min.css">
+
+    <?php include_once "../src/core/db/property__db.php"?>
 </head>
 
 <body>
+    <?php 
+    $obj = new dbh;
+    $conn = $obj->connect();
+    $stmt = $conn->query("select * from sale_property WHERE ad_id = 1");
+    $prop_data = $stmt->fetch();
+    ?>
     <header>
         <?php include'../strip/navigation.php' ?>
 
