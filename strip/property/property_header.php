@@ -3,15 +3,15 @@
     <div class="property_header">
         <div class="header_address">
             <span class="details_blurb">
-                bedroom semi detached house for sale
+              <?php echo $b ?>  bedroom semi detached <?php echo $tp ?> for sale
             </span>
             <span class="address">
-                x street road, town, TA1
+                <?php echo $a . ', ' . $tw . ', ' . substr($pc,0,strpos($pc, ' '))?>
             </span>
         </div>
         <div class="header_price">
             <p class="price_premessage">Asking Price</p>
-            <p class="price">£100,000</p>
+            <p class="price">£<?php echo $pr;?></p>
         </div>
         <div class="header_buttons">
             <a href="#" class="back_search">Back to property search</a>

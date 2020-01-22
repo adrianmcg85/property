@@ -20,6 +20,8 @@
     $conn = $obj->connect();
     $stmt = $conn->query("select * from sale_property WHERE ad_id = 1");
     $prop_data = $stmt->fetch();
+
+    include "../src/core/php/property_var.php"
     ?>
     <header>
         <?php include'../strip/navigation.php' ?>
