@@ -189,3 +189,57 @@ header {
     }
   }
 }
+
+#desktop_navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .brand_main_nav{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    .brand{
+      width: 120px;
+    }
+    .main_nav{
+      list-style: none;
+      li{
+        display: inline-block;
+        &:hover{
+          .subnav{
+            display: flex;
+            position: absolute;
+            left: 120px;
+            width: calc(100% - 130px);
+            .subnav__list{
+              display: flex;
+              flex-direction: column;
+
+              flex-basis: 25%;
+              flex-grow: 0;
+            }
+
+          }
+        }
+      }
+      .subnav{
+        display: none;
+      }
+
+    }
+  }
+  .search_account{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .nav__search{
+      width: 300px;
+      display: flex;
+    }
+    .nav__account{
+      display: flex;
+      flex-direction: column;
+      min-width: 150px;
+    }
+  }
+}

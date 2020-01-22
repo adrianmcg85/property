@@ -1099,6 +1099,55 @@ header .container .account_search__account .account__symbol::before {
   font-family: "Font Awesome 5 Free";
 }
 
+#desktop_navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#desktop_navbar .brand_main_nav {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+#desktop_navbar .brand_main_nav .brand {
+  width: 120px;
+}
+#desktop_navbar .brand_main_nav .main_nav {
+  list-style: none;
+}
+#desktop_navbar .brand_main_nav .main_nav li {
+  display: inline-block;
+}
+#desktop_navbar .brand_main_nav .main_nav li:hover .subnav {
+  display: flex;
+  position: absolute;
+  left: 120px;
+  width: calc(100% - 130px);
+}
+#desktop_navbar .brand_main_nav .main_nav li:hover .subnav .subnav__list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  flex-grow: 0;
+}
+#desktop_navbar .brand_main_nav .main_nav .subnav {
+  display: none;
+}
+#desktop_navbar .search_account {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#desktop_navbar .search_account .nav__search {
+  width: 300px;
+  display: flex;
+}
+#desktop_navbar .search_account .nav__account {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
 @media (min-width: 576px) {
   .header_content .header_content__pane {
     position: absolute;
