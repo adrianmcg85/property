@@ -1121,7 +1121,7 @@ header .container .account_search__account .account__symbol::before {
   }
 }
 .header_content .header_content__image img {
-  width: 100%;
+  min-width: 100%;
 }
 @media (max-width: 767.98px) {
   .header_content .header_content__image img {

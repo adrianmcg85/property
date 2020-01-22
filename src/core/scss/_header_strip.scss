@@ -20,7 +20,7 @@
 
 .header_content__image{
     img{
-        width: 100%;
+        min-width: 100%;
         @include media-breakpoint-down(sm){
             height: 265px;
         }
