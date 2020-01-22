@@ -87,108 +87,108 @@
   }
 }
 
-header {
-  padding: 0;
-  position: relative;
-  a,
-  a:hover {
-    color: #000;
-  }
-  .navbar {
-    padding: none;
-  }
+// header {
+//   padding: 0;
+//   position: relative;
+//   a,
+//   a:hover {
+//     color: #000;
+//   }
+//   .navbar {
+//     padding: none;
+//   }
 
-  .container {
-    margin: 0 auto;
-    position: relative;
-    .row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin: 0 -10px;
-      > div {
-        width: 100%;
-      }
-    }
-    nav {
-      height: inherit;
-      width: auto;
-      position: static;
-      overflow: hidden;
-      ul {
-        list-style: none;
-        margin: 0;
-        flex-wrap: wrap;
+//   .container {
+//     margin: 0 auto;
+//     position: relative;
+//     .row {
+//       display: flex;
+//       flex-direction: row;
+//       flex-wrap: wrap;
+//       margin: 0 -10px;
+//       > div {
+//         width: 100%;
+//       }
+//     }
+//     nav {
+//       height: inherit;
+//       width: auto;
+//       position: static;
+//       overflow: hidden;
+//       ul {
+//         list-style: none;
+//         margin: 0;
+//         flex-wrap: wrap;
 
-        li {
-          display: inline-block;
-          list-style-type: none;
-          a {
-            font-size: 14px;
-            padding: 0 20px;
-            line-height: 83px;
-            text-transform: none;
-          }
-          a:hover {
-            box-shadow: none;
-            outline: none;
-          }
-        }
-      }
-    }
-    .right {
-      width: auto;
-    }
-    .account_search {
-      .row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        .account_search__search {
-          display: flex;
-          flex-wrap: nowrap;
-          margin-right: 10px;
-          .input_wrap {
-            flex-grow: 1;
-            flex-shrink: 1;
-          }
-          input,
-          button {
-            height: 63px;
-          }
-          input {
-            &::-moz-placeholder{
-              color: #fff;  
-            }
-            &::placeholder{
-              color: #fff;  
-              opacity: 1;
-            }
-            &::-ms-input-placeholder {
-              color: #fff;  
-            }
-          }
-          button {
-            width: 63px;
-            margin: 0;
-          }
-        }
-      }
-    }
-    .account_search__search {
-      margin-top: 10px;
-    }
-    .account_search__account {
-      padding: 20px 16px;
-      text-align: center;
-      max-width: 150px;
-      .account__symbol::before {
-        content: "\f007";
-        font-family: "Font Awesome 5 Free";
-      }
-    }
-  }
-}
+//         li {
+//           display: inline-block;
+//           list-style-type: none;
+//           a {
+//             font-size: 14px;
+//             padding: 0 20px;
+//             line-height: 83px;
+//             text-transform: none;
+//           }
+//           a:hover {
+//             box-shadow: none;
+//             outline: none;
+//           }
+//         }
+//       }
+//     }
+//     .right {
+//       width: auto;
+//     }
+//     .account_search {
+//       .row {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+//         .account_search__search {
+//           display: flex;
+//           flex-wrap: nowrap;
+//           margin-right: 10px;
+//           .input_wrap {
+//             flex-grow: 1;
+//             flex-shrink: 1;
+//           }
+//           input,
+//           button {
+//             height: 63px;
+//           }
+//           input {
+//             &::-moz-placeholder{
+//               color: #fff;  
+//             }
+//             &::placeholder{
+//               color: #fff;  
+//               opacity: 1;
+//             }
+//             &::-ms-input-placeholder {
+//               color: #fff;  
+//             }
+//           }
+//           button {
+//             width: 63px;
+//             margin: 0;
+//           }
+//         }
+//       }
+//     }
+//     .account_search__search {
+//       margin-top: 10px;
+//     }
+//     .account_search__account {
+//       padding: 20px 16px;
+//       text-align: center;
+//       max-width: 150px;
+//       .account__symbol::before {
+//         content: "\f007";
+//         font-family: "Font Awesome 5 Free";
+//       }
+//     }
+//   }
+// }
 
 #desktop_navbar{
   $nav_height: 83px;
