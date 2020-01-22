@@ -1,4 +1,4 @@
-<div id="desktop_nav" class="container">
+<!-- <div id="desktop_nav" class="container">
     <div class="row ">
         <div class="navbar navbar-expand-lg navbar-light">
             <div class="logo">
@@ -74,11 +74,106 @@
       </li>
     </ul>
   </div>
-</nav>
+</nav> -->
 
-<div id="desktop_navbar" class="container">
-<div class="brand_main_nav">test</div>
-<div class="search_account">
-test
-</div>
+<div id="desktop_navbar" class="container navbar navbar-expand-lg navbar-light">
+    <div class="brand_main_nav">
+        <div class="brand">
+            <a href="#" class="navbar-brand">Brand</a>
+        </div>
+        <ul class="main_nav navbar-collapse">
+            <li class="nav-item">
+                Buy
+                <div class="subnav">
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                Sell
+                <div class="subnav">
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                    <div class="subnav__list">
+                        <div class="header">List Header</div>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                        <a href="#">List item</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                Rent
+            </li>
+            <li class="nav-item">
+                Landlord
+            </li>
+
+        </ul>
+    </div>
+    <div class="search_account">
+        <div class="nav__search">
+            <div class=" input_wrap">
+                <input type="text" placeholder="SMART SEARCH" class="form-control">
+            </div>
+            <div class="form-group">
+                <button class="btn"></button>
+            </div>
+        </div>
+        <div class="nav__account">
+            <div class="account_top">
+                <span class="account__name">My Move</span>
+            </div>
+            <div class="account_bottom">
+                <span class="account__symbol"></span>
+                <a class="account__link">Login</a> /
+                <a class="account__link">Register</a></div>
+        </div>
+    </div>
 </div>
