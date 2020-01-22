@@ -75,3 +75,10 @@
     </ul>
   </div>
 </nav>
+
+<div id="desktop_navbar" class="container">
+<div class="brand_main_nav">test</div>
+<div class="search_account">
+test
+</div>
+</div>
